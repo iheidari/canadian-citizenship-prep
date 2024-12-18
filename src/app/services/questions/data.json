@@ -7,7 +7,7 @@
       "The right to challenge unlawful detention by the state.",
       "The right to bear arms."
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "question": "What is one responsibility of Canadian citizens when called to do so?",
@@ -17,7 +17,7 @@
       "Paying taxes.",
       "Voting in all elections."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What does 'multiculturalism' mean in Canada?",
@@ -27,7 +27,7 @@
       "The enforcement of uniform cultural practices.",
       "The exclusive focus on indigenous cultures."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What principle underlines the importance of religious traditions in Canada?",
@@ -37,7 +37,7 @@
       "The Constitution Act of 1867.",
       "The supremacy of God and the rule of law."
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "question": "What are Canadians legally required to do if selected?",
@@ -47,7 +47,7 @@
       "Contribute to food banks.",
       "Attend citizenship ceremonies."
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "What does 'obeying the law' mean for Canadians?",
@@ -57,7 +57,7 @@
       "Only citizens must follow the rules.",
       "Laws apply to federal authorities only."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What is a fundamental responsibility of Canadian citizens?",
@@ -67,7 +67,7 @@
       "Donating to charity.",
       "Joining the military."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What does serving on a jury contribute to in Canada?",
@@ -77,7 +77,7 @@
       "The success of federal elections.",
       "The preservation of Canadian culture."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What is a key characteristic of Canada’s heritage and identity?",
@@ -87,7 +87,7 @@
       "Multiculturalism.",
       "Political neutrality."
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "question": "What rights are protected under 'Mobility Rights' in the Charter?",
@@ -97,7 +97,7 @@
       "The right to vote in all elections.",
       "The right to speak both official languages."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What is Canada’s stance on gender equality?",
@@ -107,7 +107,7 @@
       "Only men can serve in the military.",
       "Gender equality is optional in certain provinces."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What is one way citizens can help protect Canada’s environment?",
@@ -117,7 +117,7 @@
       "By paying taxes on time.",
       "By learning both official languages."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What is the significance of the Magna Carta to Canadian law?",
@@ -127,7 +127,7 @@
       "It abolished the monarchy in Canada.",
       "It created the Canadian Charter of Rights and Freedoms."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What does volunteering contribute to in Canada?",
@@ -137,7 +137,7 @@
       "Helping others in the community.",
       "Reducing government responsibilities."
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "question": "What are the four fundamental freedoms protected by the Canadian Charter of Rights and Freedoms?",
@@ -147,7 +147,7 @@
       "Freedom of equality, freedom of mobility, freedom of peaceful protest, and freedom of language.",
       "Freedom of speech, freedom to bear arms, freedom of travel, and freedom of religion."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What does 'Habeas Corpus' mean?",
@@ -156,16 +156,6 @@
       "The right to travel freely within Canada.",
       "The right to challenge unlawful detention by the state.",
       "The right to bear arms."
-    ],
-    "answer": 3
-  },
-  {
-    "question": "What is one responsibility of Canadian citizens when called to do so?",
-    "options": [
-      "Obeying traffic rules.",
-      "Serving on a jury.",
-      "Paying taxes.",
-      "Voting in all elections."
     ],
     "answer": 2
   },
@@ -177,7 +167,7 @@
       "The enforcement of uniform cultural practices.",
       "The exclusive focus on indigenous cultures."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What principle underlines the importance of religious traditions in Canada?",
@@ -187,7 +177,7 @@
       "The Constitution Act of 1867.",
       "The supremacy of God and the rule of law."
     ],
-    "answer": 4
+    "answer": 3
   },
   {
     "question": "What is Canada’s stance on ‘barbaric cultural practices’ like forced marriages?",
@@ -197,7 +187,7 @@
       "They are severely punished under Canadian law.",
       "They are considered private family matters."
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "question": "What is one responsibility related to Canada’s environment?",
@@ -207,7 +197,7 @@
       "Ensuring all laws are followed.",
       "Supporting local businesses."
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "What does serving on a jury ensure in Canada?",
@@ -217,7 +207,7 @@
       "The enforcement of Canadian laws.",
       "The preservation of national security."
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "What rights are protected under 'Official Language Rights'?",
@@ -227,7 +217,7 @@
       "The right to learn multiple languages.",
       "The right to access indigenous language programs."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What does ‘taking responsibility for oneself and one’s family’ mean?",
@@ -237,7 +227,7 @@
       "It means attending community events.",
       "It means donating to charities annually."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "How can young people contribute to Canada’s defense?",
@@ -247,7 +237,7 @@
       "By donating money to national security funds.",
       "By volunteering in environmental clean-ups."
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "What document in 1982 entrenched the Canadian Charter of Rights and Freedoms?",
@@ -257,7 +247,7 @@
       "The British North America Act.",
       "The Citizenship Act."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "Which group has treaty and Aboriginal rights protected under the Canadian Constitution?",
@@ -267,7 +257,7 @@
       "Aboriginal peoples, including First Nations, Inuit, and Métis.",
       "Military personnel."
     ],
-    "answer": 3
+    "answer": 2
   },
   {
     "question": "What role does volunteering play in Canadian society?",
@@ -277,7 +267,7 @@
       "It is mandatory for all citizens.",
       "It replaces government services."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "Why is voting in elections an important responsibility for Canadian citizens?",
@@ -287,7 +277,7 @@
       "It provides financial benefits to participants.",
       "It is necessary for obtaining citizenship."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What is the rule of law?",
@@ -297,7 +287,7 @@
       "Only Parliament members are subject to the law.",
       "Laws can be ignored under certain circumstances."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What rights do Canadian citizens have regarding mobility?",
@@ -307,7 +297,7 @@
       "To vote in all elections.",
       "To demand housing support."
     ],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "What is the significance of the Great Charter of Freedoms (Magna Carta)?",
@@ -317,6 +307,6 @@
       "It introduced voting rights.",
       "It created Canada’s legal system."
     ],
-    "answer": 2
+    "answer": 1
   }
 ]

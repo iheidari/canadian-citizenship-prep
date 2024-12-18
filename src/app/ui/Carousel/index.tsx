@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 // Define types for the question structure
 type Question = {
@@ -16,27 +16,27 @@ type CarouselProps = {
 const Carousel: React.FC<CarouselProps> = ({ questions }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [, setShowAnswer] = useState(false);
 
   const currentQuestion = questions[currentQuestionIndex];
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     setShowAnswer(false);
     setSelectedOption(null);
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     }
-  };
+  }, [currentQuestionIndex, questions.length]);
 
-  const handlePrevious = () => {
+  const handlePrevious = useCallback(() => {
     setShowAnswer(false);
     setSelectedOption(null);
     if (currentQuestionIndex > 0) {
       setCurrentQuestionIndex(currentQuestionIndex - 1);
     }
-  };
+  }, [currentQuestionIndex]);
 
-  const handleSubmit = () => {
+  const handleSubmit = useCallback(() => {
     if (selectedOption !== null) {
       alert(
         selectedOption === currentQuestion.answer
@@ -48,16 +48,16 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
     } else {
       alert("Please select an option first!");
     }
-  };
+  }, [currentQuestion.answer, currentQuestion.options, selectedOption]);
 
-  const handleShowAnswer = () => {
+  const handleShowAnswer = useCallback(() => {
     setSelectedOption(currentQuestion.answer);
     setShowAnswer(true);
-  };
+  }, [currentQuestion.answer]);
 
-  const handleOptionSelect = (index: number) => {
+  const handleOptionSelect = useCallback((index: number) => {
     setSelectedOption(index);
-  };
+  }, []);
 
   // Keyboard Shortcuts
   useEffect(() => {
@@ -66,15 +66,17 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
         case "Enter": // Submit on Enter
           handleSubmit();
           break;
-        case " ": // Show Answer on Space
+        case "A": // Show Answer on Space
+        case "a": // Show Answer on Space
           e.preventDefault(); // Prevent default page scrolling
           handleShowAnswer();
           break;
-        case "ArrowRight": // Next question
-        case "Escape": // ESC key also moves to next question
+        case "n": // Next question
+        case "N": // ESC key also moves to next question
           handleNext();
           break;
-        case "ArrowLeft": // Previous question
+        case "p": // Previous question
+        case "P": // Previous question
           handlePrevious();
           break;
         case "1": // Select Option 1
@@ -102,7 +104,7 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
   }, [currentQuestionIndex, selectedOption]);
 
   return (
-    <div className="w-full bg-gray-900 flex flex-row gap-3 justify-center items-center text-white">
+    <div className="w-full flex flex-row gap-3 justify-center items-center text-white">
       <div className="h-40 w-16">
         {currentQuestionIndex === 0 ? null : (
           <button
@@ -118,7 +120,7 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
 
       <div className="w-full">
         {/* Question */}
-        <h2 className="text-3xl font-bold mt-6 mb-10 h-16">
+        <h2 className="text-2xl font-bold mt-6 mb-10 h-16">
           {currentQuestion.question}
         </h2>
 

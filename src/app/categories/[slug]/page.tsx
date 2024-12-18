@@ -21,7 +21,7 @@ const page = async ({ params }: IProps) => {
 
   return (
     <div className="flex flex-col gap-4">
-      <h1 className="">{category.title}</h1>
+      <h2 className="text-3xl font-bold my-10 ml-8">{category.title}</h2>
       <Carousel questions={getQuestions()} />
     </div>
   );
