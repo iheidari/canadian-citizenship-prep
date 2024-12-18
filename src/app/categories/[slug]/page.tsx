@@ -1,6 +1,8 @@
 import React from "react";
 import { notFound } from "next/navigation";
 import { getCategories, getCategoryById } from "@/app/services/categories";
+import Carousel from "@/app/ui/Carousel";
+import { getQuestions } from "@/app/services/questions";
 
 // fro  nextjs 15, params will pass as a promise
 type Params = Promise<{ slug: string }>;
@@ -17,7 +19,12 @@ const page = async ({ params }: IProps) => {
     return notFound();
   }
 
-  return <div className="flex flex-col gap-4">{category.title}</div>;
+  return (
+    <div className="flex flex-col gap-4">
+      <h1 className="">{category.title}</h1>
+      <Carousel questions={getQuestions()} />
+    </div>
+  );
 };
 
 export const dynamicParams = false;
