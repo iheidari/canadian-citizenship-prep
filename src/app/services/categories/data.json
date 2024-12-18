@@ -1,0 +1,29 @@
+[
+  { "id": "applying-for-citizenship", "title": "Applying for Citizenship" },
+  {
+    "id": "rights-and-responsibilities-of-citizenship",
+    "title": "Rights and Responsibilities of Citizenship"
+  },
+  { "id": "who-we-are", "title": "Who We Are" },
+  { "id": "canadas-history", "title": "Canada’s History" },
+  { "id": "modern-canada", "title": "Modern Canada" },
+  {
+    "id": "how-canadians-govern-themselves",
+    "title": "How Canadians Govern Themselves"
+  },
+  { "id": "federal-elections", "title": "Federal Elections" },
+  { "id": "the-justice-system", "title": "The Justice System" },
+  { "id": "canadian-symbols", "title": "Canadian Symbols" },
+  { "id": "canadas-economy", "title": "Canada’s Economy" },
+  { "id": "canadas-regions", "title": "Canada’s Regions" },
+  { "id": "the-atlantic-provinces", "title": "The Atlantic Provinces" },
+  { "id": "central-canada", "title": "Central Canada" },
+  { "id": "the-prairie-provinces", "title": "The Prairie Provinces" },
+  { "id": "the-west-coast", "title": "The West Coast" },
+  { "id": "the-northern-territories", "title": "The Northern Territories" },
+  { "id": "study-questions", "title": "Study Questions" },
+  { "id": "for-more-information", "title": "For More Information" },
+  { "id": "photo-credits", "title": "Photo Credits" },
+  { "id": "authorities", "title": "Authorities" },
+  { "id": "memorable-quotes", "title": "Memorable Quotes" }
+]
