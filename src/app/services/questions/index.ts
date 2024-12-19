@@ -1,4 +1,5 @@
 import data from "./data.json";
-export const getQuestions = () => {
-  return data;
+
+export const getQuestions = (id: string) => {
+  return data[id];
 };

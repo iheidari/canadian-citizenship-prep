@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useEffect, useCallback } from "react";
+import { CtaMode, getCtaText, getMessageColor, MessageType } from "./util";
+import { useRouter } from "next/navigation";
 
 // Define types for the question structure
 type Question = {
@@ -14,46 +16,67 @@ type CarouselProps = {
 };
 
 const Carousel: React.FC<CarouselProps> = ({ questions }) => {
+  const router = useRouter();
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [ctaMode, setCtaMode] = useState<CtaMode>("submit");
+  const [message, setMessage] = useState<MessageType>({ text: "" });
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
-  const [, setShowAnswer] = useState(false);
 
   const currentQuestion = questions[currentQuestionIndex];
 
   const handleNext = useCallback(() => {
-    setShowAnswer(false);
     setSelectedOption(null);
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     }
+    setCtaMode("submit");
+    setMessage({ text: "" });
   }, [currentQuestionIndex, questions.length]);
 
   const handlePrevious = useCallback(() => {
-    setShowAnswer(false);
     setSelectedOption(null);
     if (currentQuestionIndex > 0) {
       setCurrentQuestionIndex(currentQuestionIndex - 1);
     }
+    setCtaMode("submit");
   }, [currentQuestionIndex]);
 
-  const handleSubmit = useCallback(() => {
-    if (selectedOption !== null) {
-      alert(
-        selectedOption === currentQuestion.answer
-          ? "Correct!"
-          : `Incorrect. The correct answer is: ${
-              currentQuestion.options[currentQuestion.answer]
-            }`
-      );
-    } else {
-      alert("Please select an option first!");
-    }
-  }, [currentQuestion.answer, currentQuestion.options, selectedOption]);
+  const handleBack = useCallback(() => {
+    router.push("/");
+  }, [router]);
 
-  const handleShowAnswer = useCallback(() => {
-    setSelectedOption(currentQuestion.answer);
-    setShowAnswer(true);
-  }, [currentQuestion.answer]);
+  const handleSubmit = useCallback(() => {
+    if (selectedOption == null) {
+      setMessage({ text: "Please select an option first!", status: "error" });
+      return;
+    }
+    if (selectedOption === currentQuestion.answer) {
+      setMessage({ text: "Correct Answer!", status: "success" });
+      if (currentQuestionIndex < questions.length - 1) {
+        setCtaMode("next");
+      } else {
+        setCtaMode("back");
+      }
+      return;
+    }
+    setMessage({ text: "Incorrect Answer!", status: "error" });
+  }, [
+    selectedOption,
+    currentQuestion?.answer,
+    currentQuestionIndex,
+    questions.length,
+  ]);
+
+  const handleCtaClick = useCallback(() => {
+    if (ctaMode === "submit") {
+      handleSubmit();
+    } else if (ctaMode === "next") {
+      handleNext();
+    } else if (ctaMode === "back") {
+      handleBack();
+    }
+  }, [ctaMode, handleBack, handleNext, handleSubmit]);
 
   const handleOptionSelect = useCallback((index: number) => {
     setSelectedOption(index);
@@ -64,12 +87,7 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
     const handleKeyDown = (e: KeyboardEvent) => {
       switch (e.key) {
         case "Enter": // Submit on Enter
-          handleSubmit();
-          break;
-        case "A": // Show Answer on Space
-        case "a": // Show Answer on Space
-          e.preventDefault(); // Prevent default page scrolling
-          handleShowAnswer();
+          handleCtaClick();
           break;
         case "n": // Next question
         case "N": // ESC key also moves to next question
@@ -101,7 +119,18 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
 
     // Cleanup event listener on unmount
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentQuestionIndex, selectedOption]);
+  }, [
+    currentQuestionIndex,
+    handleNext,
+    handleOptionSelect,
+    handlePrevious,
+    handleCtaClick,
+    selectedOption,
+  ]);
+
+  if (!currentQuestion) {
+    return null;
+  }
 
   return (
     <div className="w-full flex flex-row gap-3 justify-center items-center text-white">
@@ -147,19 +176,16 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
         </div>
 
         {/* Submit and Show Answer Buttons */}
-        <div className="flex my-4 justify-between">
+        <div className="flex my-4 items-center">
           <button
-            onClick={handleSubmit}
-            className="px-6 py-2 bg-blue-700 text-white rounded hover:bg-blue-900"
+            onClick={handleCtaClick}
+            className="px-6 py-2 w-40 bg-blue-700 text-white rounded hover:bg-blue-900"
           >
-            Submit
+            {getCtaText(ctaMode)}
           </button>
-          <button
-            onClick={handleShowAnswer}
-            className="px-6 py-2 bg-green-700 text-white rounded hover:bg-green-900"
-          >
-            Show Answer
-          </button>
+          <span className={`ml-5 ${getMessageColor(message.status)}`}>
+            {message.text}
+          </span>
         </div>
       </div>
       <div className="h-40 w-16">

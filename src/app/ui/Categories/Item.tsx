@@ -10,11 +10,12 @@ interface Props {
 const Item = (props: Props) => {
   return (
     <Link href={`/categories/${props.slug}`}>
-      <div className="relative text-white border-white border w-32 h-32 p-2 overflow-hidden break-words flex items-center justify-center text-center hover:border-blue-500 transition-colors duration-300">
-        <div className="absolute top-2 left-2 text-sm font-bold">
+      <div className="relative text-white border-white border w-40 h-40 p-2 overflow-hidden break-words flex items-center justify-center text-center hover:border-blue-500 transition-colors duration-300 rounded-md">
+        <div className="absolute top-2 left-2 text-lg font-bold">
           {props.index + 1}
         </div>
-        <div>{props.name}</div>
+        <div className="text-lg">{props.name}</div>
+        <div className="absolute bottom-2 right-2 text-lg font-bold">0%</div>
       </div>
     </Link>
   );

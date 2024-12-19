@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <Header />
         <main className="flex justify-center ">
-          <div className="max-w-[1024px] w-full justify-center bg-gray-900">
+          <div className="max-w-[960px] w-full justify-center bg-gray-900">
             {children}
           </div>
         </main>
