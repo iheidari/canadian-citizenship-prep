@@ -1,6 +1,7 @@
 {
   "applying-for-citizenship": [
     {
+      "id": 1,
       "question": "What do officials check when you apply for Canadian citizenship?",
       "options": [
         "Your health records.",
@@ -11,6 +12,7 @@
       "answer": 1
     },
     {
+      "id": 2,
       "question": "What must you ensure while your citizenship application is being processed?",
       "options": [
         "That your passport is renewed.",
@@ -21,6 +23,7 @@
       "answer": 1
     },
     {
+      "id": 3,
       "question": "What happens if you pass the citizenship test and meet all other requirements?",
       "options": [
         "You receive a Canadian passport.",
@@ -31,6 +34,7 @@
       "answer": 1
     },
     {
+      "id": 4,
       "question": "What do you receive at the citizenship ceremony?",
       "options": [
         "A permanent resident card.",
@@ -41,6 +45,7 @@
       "answer": 1
     },
     {
+      "id": 5,
       "question": "What is the citizenship test usually like?",
       "options": [
         "An oral interview.",
@@ -51,6 +56,7 @@
       "answer": 1
     },
     {
+      "id": 6,
       "question": "What is tested during the citizenship test?",
       "options": [
         "Knowledge of Canada and English or French proficiency.",
@@ -61,6 +67,7 @@
       "answer": 0
     },
     {
+      "id": 7,
       "question": "What is the age group that does not need to take the citizenship test?",
       "options": [
         "18 and below.",
@@ -71,6 +78,7 @@
       "answer": 1
     },
     {
+      "id": 8,
       "question": "What is one of the basic requirements to apply for Canadian citizenship?",
       "options": [
         "Owning a property in Canada.",
@@ -81,6 +89,7 @@
       "answer": 1
     },
     {
+      "id": 9,
       "question": "How old must you be to apply for Canadian citizenship?",
       "options": [
         "16 years old.",
@@ -91,6 +100,7 @@
       "answer": 1
     },
     {
+      "id": 10,
       "question": "What documents are required when applying for citizenship?",
       "options": [
         "Medical history and birth certificate.",
@@ -101,11 +111,13 @@
       "answer": 1
     },
     {
+      "id": 11,
       "question": "What is the application fee for citizenship for an adult?",
       "options": ["$200", "$630", "$500", "$1,000"],
       "answer": 1
     },
     {
+      "id": 12,
       "question": "Who is exempt from paying the citizenship application fee?",
       "options": [
         "Seniors over 65.",
@@ -116,6 +128,7 @@
       "answer": 1
     },
     {
+      "id": 13,
       "question": "What language skills are required to apply for citizenship?",
       "options": [
         "Basic fluency in English or French.",
@@ -126,6 +139,7 @@
       "answer": 0
     },
     {
+      "id": 14,
       "question": "What happens if your citizenship application is incomplete?",
       "options": [
         "You will receive a warning but your application will proceed.",
@@ -136,6 +150,7 @@
       "answer": 1
     },
     {
+      "id": 15,
       "question": "What must applicants file for at least three years within the last five years?",
       "options": [
         "Proof of employment.",
@@ -146,6 +161,7 @@
       "answer": 1
     },
     {
+      "id": 16,
       "question": "What happens if you do not meet all the requirements for citizenship?",
       "options": [
         "Your application will be rejected.",
@@ -156,6 +172,7 @@
       "answer": 0
     },
     {
+      "id": 17,
       "question": "What does the Oath of Citizenship represent?",
       "options": [
         "A promise to obey Canada's laws and fulfill citizen duties.",
@@ -168,6 +185,7 @@
   ],
   "rights-and-responsibilities-of-citizenship": [
     {
+      "id": 1,
       "question": "What does 'Habeas Corpus' mean?",
       "options": [
         "The right to vote.",
@@ -178,6 +196,7 @@
       "answer": 2
     },
     {
+      "id": 2,
       "question": "What is one responsibility of Canadian citizens when called to do so?",
       "options": [
         "Obeying traffic rules.",
@@ -188,6 +207,7 @@
       "answer": 1
     },
     {
+      "id": 3,
       "question": "What does 'multiculturalism' mean in Canada?",
       "options": [
         "The promotion of one dominant culture across Canada.",
@@ -198,6 +218,7 @@
       "answer": 1
     },
     {
+      "id": 4,
       "question": "What principle underlines the importance of religious traditions in Canada?",
       "options": [
         "The Canadian Charter of Rights and Freedoms.",
@@ -208,6 +229,7 @@
       "answer": 3
     },
     {
+      "id": 5,
       "question": "What are Canadians legally required to do if selected?",
       "options": [
         "Serve on a jury.",
@@ -218,6 +240,7 @@
       "answer": 0
     },
     {
+      "id": 6,
       "question": "What does 'obeying the law' mean for Canadians?",
       "options": [
         "Everyone must follow traffic rules.",
@@ -228,6 +251,7 @@
       "answer": 1
     },
     {
+      "id": 7,
       "question": "What is a fundamental responsibility of Canadian citizens?",
       "options": [
         "Owning property.",
@@ -238,6 +262,7 @@
       "answer": 1
     },
     {
+      "id": 8,
       "question": "What does serving on a jury contribute to in Canada?",
       "options": [
         "The financial stability of the country.",
@@ -248,6 +273,7 @@
       "answer": 1
     },
     {
+      "id": 9,
       "question": "What is a key characteristic of Canada’s heritage and identity?",
       "options": [
         "Religious traditions.",
@@ -258,6 +284,7 @@
       "answer": 2
     },
     {
+      "id": 10,
       "question": "What rights are protected under 'Mobility Rights' in the Charter?",
       "options": [
         "The right to travel internationally.",
@@ -268,6 +295,7 @@
       "answer": 1
     },
     {
+      "id": 11,
       "question": "What is Canada’s stance on gender equality?",
       "options": [
         "Women have more legal rights than men.",
@@ -278,6 +306,7 @@
       "answer": 1
     },
     {
+      "id": 12,
       "question": "What is one way citizens can help protect Canada’s environment?",
       "options": [
         "By volunteering for the police force.",
@@ -288,6 +317,7 @@
       "answer": 1
     },
     {
+      "id": 13,
       "question": "What is the significance of the Magna Carta to Canadian law?",
       "options": [
         "It established religious freedom in Canada.",
@@ -298,6 +328,7 @@
       "answer": 1
     },
     {
+      "id": 14,
       "question": "What does volunteering contribute to in Canada?",
       "options": [
         "Personal gain.",
@@ -308,6 +339,7 @@
       "answer": 2
     },
     {
+      "id": 15,
       "question": "What are the four fundamental freedoms protected by the Canadian Charter of Rights and Freedoms?",
       "options": [
         "Freedom of speech, freedom of thought, freedom of expression, and freedom of conscience.",
@@ -318,6 +350,7 @@
       "answer": 1
     },
     {
+      "id": 16,
       "question": "What does 'Habeas Corpus' mean?",
       "options": [
         "The right to vote.",
@@ -328,6 +361,7 @@
       "answer": 2
     },
     {
+      "id": 17,
       "question": "What does 'multiculturalism' mean in Canada?",
       "options": [
         "The promotion of one dominant culture across Canada.",
@@ -338,6 +372,7 @@
       "answer": 1
     },
     {
+      "id": 18,
       "question": "What principle underlines the importance of religious traditions in Canada?",
       "options": [
         "The Canadian Charter of Rights and Freedoms.",
@@ -348,6 +383,7 @@
       "answer": 3
     },
     {
+      "id": 19,
       "question": "What is Canada’s stance on ‘barbaric cultural practices’ like forced marriages?",
       "options": [
         "They are encouraged under religious freedoms.",
@@ -358,6 +394,7 @@
       "answer": 2
     },
     {
+      "id": 20,
       "question": "What is one responsibility related to Canada’s environment?",
       "options": [
         "Protecting and enjoying Canada's heritage and environment.",
@@ -368,6 +405,7 @@
       "answer": 0
     },
     {
+      "id": 21,
       "question": "What does serving on a jury ensure in Canada?",
       "options": [
         "The fairness and integrity of the justice system.",
@@ -378,6 +416,7 @@
       "answer": 0
     },
     {
+      "id": 22,
       "question": "What rights are protected under 'Official Language Rights'?",
       "options": [
         "The right to speak any language at home.",
@@ -388,6 +427,7 @@
       "answer": 1
     },
     {
+      "id": 23,
       "question": "What does ‘taking responsibility for oneself and one’s family’ mean?",
       "options": [
         "It means voting in all elections.",
@@ -398,6 +438,7 @@
       "answer": 1
     },
     {
+      "id": 24,
       "question": "How can young people contribute to Canada’s defense?",
       "options": [
         "By serving in the militia, navy, or air reserves.",
@@ -408,6 +449,7 @@
       "answer": 0
     },
     {
+      "id": 25,
       "question": "What document in 1982 entrenched the Canadian Charter of Rights and Freedoms?",
       "options": [
         "The Magna Carta.",
@@ -418,6 +460,7 @@
       "answer": 1
     },
     {
+      "id": 26,
       "question": "Which group has treaty and Aboriginal rights protected under the Canadian Constitution?",
       "options": [
         "New immigrants.",
@@ -428,6 +471,7 @@
       "answer": 2
     },
     {
+      "id": 27,
       "question": "What role does volunteering play in Canadian society?",
       "options": [
         "It is a paid responsibility.",
@@ -438,6 +482,7 @@
       "answer": 1
     },
     {
+      "id": 28,
       "question": "Why is voting in elections an important responsibility for Canadian citizens?",
       "options": [
         "It is legally required for all citizens.",
@@ -448,6 +493,7 @@
       "answer": 1
     },
     {
+      "id": 29,
       "question": "What is the rule of law?",
       "options": [
         "The government is above the law.",
@@ -458,6 +504,7 @@
       "answer": 1
     },
     {
+      "id": 30,
       "question": "What rights do Canadian citizens have regarding mobility?",
       "options": [
         "To travel abroad without restrictions.",
@@ -468,6 +515,7 @@
       "answer": 1
     },
     {
+      "id": 31,
       "question": "What is the significance of the Great Charter of Freedoms (Magna Carta)?",
       "options": [
         "It abolished the monarchy.",
@@ -478,23 +526,4127 @@
       "answer": 1
     }
   ],
-  "who-we-are": [],
-  "canadas-history": [],
-  "modern-canada": [],
-  "how-canadians-govern-themselves": [],
-  "federal-elections": [],
-  "the-justice-system": [],
-  "canadian-symbols": [],
-  "canadas-economy": [],
-  "canadas-regions": [],
-  "the-atlantic-provinces": [],
-  "central-canada": [],
-  "the-prairie-provinces": [],
-  "the-west-coast": [],
-  "the-northern-territories": [],
-  "study-questions": [],
-  "for-more-information": [],
-  "photo-credits": [],
-  "authorities": [],
-  "memorable-quotes": []
+  "who-we-are": [
+    {
+      "id": 1,
+      "question": "Who are the three founding peoples of Canada?",
+      "options": [
+        "English, French, and Aboriginal peoples",
+        "English, Spanish, and Aboriginal peoples",
+        "French, German, and Aboriginal peoples",
+        "English, French, and German peoples"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is the significance of the Aboriginal peoples in Canadian history?",
+      "options": [
+        "They were the first to establish European settlements in Canada.",
+        "They migrated from Asia and lived in Canada long before European explorers arrived.",
+        "They introduced the parliamentary system to Canada.",
+        "They created the Canadian Constitution."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "What are the three main groups of Aboriginal peoples in Canada?",
+      "options": [
+        "Inuit, Métis, and French Canadians",
+        "Inuit, Métis, and First Nations",
+        "Métis, First Nations, and British Canadians",
+        "Inuit, First Nations, and Anglo-Canadians"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is the meaning of the word 'Inuit'?",
+      "options": ["The nomads", "The people", "The explorers", "The settlers"],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "What are the Métis known for?",
+      "options": [
+        "Being descendants of Aboriginal and European ancestry",
+        "Living in the Arctic regions of Canada",
+        "Being the first settlers of Quebec",
+        "Creating Canada’s official languages"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 6,
+      "question": "What percentage of Aboriginal peoples are First Nations?",
+      "options": ["30%", "50%", "65%", "80%"],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "question": "Which Aboriginal group is known for living in the Arctic regions of Canada?",
+      "options": ["Métis", "First Nations", "Inuit", "Cree"],
+      "answer": 2
+    },
+    {
+      "id": 8,
+      "question": "What is the name of the unique language spoken by the Métis?",
+      "options": ["Inuktitut", "Michif", "Cree", "French"],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "What significant historical policy affected Aboriginal children in Canada?",
+      "options": [
+        "The Residential School System",
+        "The Treaty of Confederation",
+        "The French Revolution",
+        "The Magna Carta"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is one of the main cultural characteristics of the First Nations?",
+      "options": [
+        "They speak only French.",
+        "Their culture is rooted in religious beliefs about the Creator, nature, and community.",
+        "They are known for their parliamentary system.",
+        "They primarily live in the Arctic."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "What rights are guaranteed to Aboriginal peoples in Canada?",
+      "options": [
+        "Only land rights",
+        "Aboriginal and treaty rights recognized in the Canadian Constitution",
+        "Full voting rights only in certain provinces",
+        "Exclusive trade rights with Europe"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "Which European power first collaborated with Aboriginal peoples in the fur trade?",
+      "options": ["France", "Spain", "England", "Portugal"],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "What cultural achievement is associated with the Haida people?",
+      "options": [
+        "Totem pole carving",
+        "Building the first European settlements",
+        "Creating the Michif language",
+        "Founding Canada’s first parliament"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "question": "Which province has a significant population of Métis people?",
+      "options": ["Ontario", "Alberta", "Nova Scotia", "British Columbia"],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is one key factor that unites the diversity of Canadian society?",
+      "options": [
+        "A shared heritage rooted only in English culture",
+        "Respect for multiculturalism and pluralism",
+        "A single official language",
+        "A uniform religious tradition"
+      ],
+      "answer": 1
+    }
+  ],
+  "canadas-history": [
+    {
+      "id": 1,
+      "question": "Who were the first Europeans to reach Canada?",
+      "options": ["The French", "The English", "The Vikings", "The Spanish"],
+      "answer": 2
+    },
+    {
+      "id": 2,
+      "question": "What is the significance of L’Anse aux Meadows?",
+      "options": [
+        "It is the site of the first French settlement.",
+        "It is a World Heritage site marking a Viking settlement.",
+        "It is the location of Canada's first parliament.",
+        "It is the birthplace of the Canadian Constitution."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "Who claimed Canada for France in 1534?",
+      "options": [
+        "John Cabot",
+        "Jacques Cartier",
+        "Samuel de Champlain",
+        "Pierre Le Moyne"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "What does the word 'Canada' mean?",
+      "options": ["Land of the North", "Village", "Nation", "River"],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "Who founded Quebec City in 1608?",
+      "options": [
+        "John Cabot",
+        "Samuel de Champlain",
+        "Pierre Le Moyne",
+        "Sir Isaac Brock"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "What was the main economic activity in New France?",
+      "options": ["Agriculture", "Fur trading", "Mining", "Shipbuilding"],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "What major battle in 1759 marked the end of French rule in Canada?",
+      "options": [
+        "Battle of Yorktown",
+        "Battle of the Plains of Abraham",
+        "Battle of Quebec",
+        "Battle of Fort Louisbourg"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "What was the Quebec Act of 1774?",
+      "options": [
+        "An act to deport French settlers",
+        "An act to grant religious freedom and restore French civil law",
+        "An act to abolish slavery",
+        "An act to establish a free trade zone in Quebec"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "Who were the Loyalists?",
+      "options": [
+        "Supporters of the American Revolution",
+        "Canadians who joined the fur trade",
+        "Settlers loyal to the British Crown during the American Revolution",
+        "A group advocating for Quebec independence"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "question": "What significant event occurred in 1812 in Canadian history?",
+      "options": [
+        "The signing of the Canadian Constitution",
+        "The war between Canada and the United States",
+        "The formation of the Hudson’s Bay Company",
+        "The establishment of the first Canadian Parliament"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "Who helped defend Canada during the War of 1812?",
+      "options": [
+        "American revolutionaries",
+        "French soldiers and their allies",
+        "British troops, Canadian volunteers, and First Nations",
+        "The United Nations"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 12,
+      "question": "What was the Underground Railroad?",
+      "options": [
+        "A system of tunnels used during the War of 1812",
+        "A trade network for fur and goods",
+        "A network to help escaped slaves find freedom in Canada",
+        "The first railway system in Canada"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 13,
+      "question": "What does the term 'Confederation' refer to in Canadian history?",
+      "options": [
+        "The creation of the Hudson’s Bay Company",
+        "The unification of British North American colonies into Canada",
+        "The abolition of French civil law in Quebec",
+        "The establishment of universal suffrage"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "question": "Who was Canada’s first Prime Minister?",
+      "options": [
+        "Sir Isaac Brock",
+        "Sir Louis-Hippolyte La Fontaine",
+        "Sir John A. Macdonald",
+        "Sir George-Étienne Cartier"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 15,
+      "question": "What year did Canada become a country?",
+      "options": ["1776", "1812", "1867", "1905"],
+      "answer": 2
+    },
+    {
+      "id": 16,
+      "question": "What was the Hudson’s Bay Company?",
+      "options": [
+        "A company that controlled Canada’s first railway",
+        "A major fur trading company granted rights by the British Crown",
+        "A financial institution in early Canada",
+        "A shipbuilding company"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is the significance of the War of 1812?",
+      "options": [
+        "It ensured Canada’s independence from the United States.",
+        "It established French civil law in Quebec.",
+        "It led to the formation of the Canadian Constitution.",
+        "It abolished slavery in Canada."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 18,
+      "question": "What did the Constitutional Act of 1791 establish?",
+      "options": [
+        "The abolition of slavery in Canada",
+        "The division of Quebec into Upper and Lower Canada",
+        "The Confederation of British colonies",
+        "The establishment of Canada’s first Parliament"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "question": "Who were the coureurs des bois?",
+      "options": [
+        "French Canadian farmers",
+        "Unlicensed fur traders who worked closely with First Nations",
+        "Military officers in New France",
+        "Settlers in the Prairie provinces"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "What was the main purpose of the treaties signed with Aboriginal peoples?",
+      "options": [
+        "To give them full ownership of all Canadian lands",
+        "To establish cooperation and land sharing between settlers and Aboriginal peoples",
+        "To enforce British law on Aboriginal territories",
+        "To assimilate Aboriginal peoples into European culture"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "question": "Which European powers fought for control of Canada in the 1700s?",
+      "options": [
+        "France and Spain",
+        "Britain and France",
+        "Britain and Spain",
+        "France and Portugal"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "question": "What was the result of the Treaty of Paris in 1763?",
+      "options": [
+        "France gained control of Canada",
+        "Canada became an independent nation",
+        "Britain gained control of Canada from France",
+        "Canada joined the United States"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "question": "What role did Chief Tecumseh play in Canadian history?",
+      "options": [
+        "He was a leader in the French Revolution.",
+        "He allied with the British to defend Canada during the War of 1812.",
+        "He helped draft the Canadian Constitution.",
+        "He led the Underground Railroad."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "What was the importance of the Battle of Chateauguay during the War of 1812?",
+      "options": [
+        "It was the first battle of the war.",
+        "It marked a major victory for French Canadian militia against American invaders.",
+        "It led to the signing of the Treaty of Paris.",
+        "It ended the War of 1812."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "Why was the Hudson’s Bay Company important in Canadian history?",
+      "options": [
+        "It managed trade routes between Canada and Europe.",
+        "It controlled much of Canada’s fur trade and territories in the North.",
+        "It established the first Canadian military force.",
+        "It founded Canada’s banking system."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "question": "Who were the habitants in New France?",
+      "options": [
+        "French fur traders",
+        "Farmers who lived along the St. Lawrence River",
+        "Military leaders in Quebec",
+        "First Nations allies of the French"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "question": "What was the Royal Proclamation of 1763?",
+      "options": [
+        "A document recognizing Aboriginal land rights",
+        "A decree abolishing slavery in Canada",
+        "A declaration of Canadian independence",
+        "A proclamation establishing Quebec as a British colony"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "question": "Who was Sir Isaac Brock?",
+      "options": [
+        "A French fur trader in New France",
+        "A British military officer who defended Canada in the War of 1812",
+        "The first Prime Minister of Canada",
+        "A key negotiator of the Confederation agreements"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "question": "What was the primary focus of the Rebellions of 1837–1838?",
+      "options": [
+        "To demand more democratic government and responsible governance",
+        "To declare Canada’s independence from Britain",
+        "To fight for Aboriginal rights",
+        "To expand the fur trade"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 30,
+      "question": "What major change did the British North America Act of 1867 bring about?",
+      "options": [
+        "It established Canada as a country.",
+        "It abolished French civil law.",
+        "It ended the War of 1812.",
+        "It introduced universal suffrage."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 31,
+      "question": "What was the role of Laura Secord in Canadian history?",
+      "options": [
+        "She was a fur trader in New France.",
+        "She warned British forces of an American attack during the War of 1812.",
+        "She helped negotiate treaties with Aboriginal peoples.",
+        "She drafted the British North America Act."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "question": "Which region of Canada was the last to join Confederation in 1949?",
+      "options": [
+        "British Columbia",
+        "Alberta",
+        "Newfoundland and Labrador",
+        "Nunavut"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 33,
+      "question": "What was the significance of the Charlottetown Conference in 1864?",
+      "options": [
+        "It marked the beginning of the War of 1812.",
+        "It was the first meeting to discuss Canadian Confederation.",
+        "It ended the Rebellions of 1837–1838.",
+        "It established British control of Canada."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "question": "Who were the Acadians?",
+      "options": [
+        "French-speaking settlers in the Maritimes who were deported by the British",
+        "Indigenous peoples living in the Prairie provinces",
+        "British Loyalists who migrated to Canada",
+        "A group of fur traders in New France"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 35,
+      "question": "What was the Great Upheaval?",
+      "options": [
+        "The migration of Loyalists to Canada",
+        "The deportation of the Acadians by the British",
+        "The signing of the British North America Act",
+        "The start of the fur trade in Canada"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "question": "What did the Métis contribute to Canadian history?",
+      "options": [
+        "They formed the first Canadian Parliament.",
+        "They played a key role in the Red River Rebellion and the establishment of Manitoba.",
+        "They led the signing of the British North America Act.",
+        "They introduced the fur trade to Canada."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "question": "What significant role did Louis Riel play in Canadian history?",
+      "options": [
+        "He was Canada’s first Prime Minister.",
+        "He led the Métis in defending their rights and land during the Red River and Northwest Rebellions.",
+        "He founded the Hudson’s Bay Company.",
+        "He negotiated the Treaty of Paris."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "question": "What was the primary goal of the Canadian Pacific Railway?",
+      "options": [
+        "To connect British Columbia with the rest of Canada",
+        "To establish trade routes with the United States",
+        "To bring settlers to the Arctic regions",
+        "To transport goods from Europe to Canada"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 39,
+      "question": "What was the significance of the Battle of Vimy Ridge in Canadian history?",
+      "options": [
+        "It was the first battle of the War of 1812.",
+        "It was a defining moment in Canada’s military history during World War I.",
+        "It marked the end of the French and Indian War.",
+        "It established Canada’s independence from Britain."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "question": "Who are the Fathers of Confederation?",
+      "options": [
+        "The leaders who negotiated the unification of British North American colonies into Canada",
+        "The founders of the Hudson’s Bay Company",
+        "The first members of Canada’s Supreme Court",
+        "The writers of the Canadian Charter of Rights and Freedoms"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is the significance of the Red River Rebellion?",
+      "options": [
+        "It was the first step toward Canadian Confederation.",
+        "It was a rebellion led by the Métis to protect their land and culture.",
+        "It marked the beginning of the War of 1812.",
+        "It was a movement to abolish the fur trade."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "question": "What was the purpose of residential schools in Canada?",
+      "options": [
+        "To provide education to all Canadian children",
+        "To assimilate Aboriginal children into European culture",
+        "To train children for fur trading",
+        "To promote bilingual education in French and English"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "question": "What was the importance of the Northwest Mounted Police (NWMP)?",
+      "options": [
+        "They established the first railway system in Canada.",
+        "They ensured law and order in western Canada during its settlement.",
+        "They led Canada’s military in the War of 1812.",
+        "They were the first judges of the Canadian Supreme Court."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 44,
+      "question": "What event led to the creation of Nunavut in 1999?",
+      "options": [
+        "The negotiation of land rights with Aboriginal peoples",
+        "The signing of the British North America Act",
+        "The establishment of the Canadian Charter of Rights and Freedoms",
+        "The end of the War of 1812"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 45,
+      "question": "What was the significance of the fur trade in Canadian history?",
+      "options": [
+        "It was the primary reason for European exploration and settlement.",
+        "It led to the formation of Canada’s modern borders.",
+        "It established Canada as an independent nation.",
+        "It abolished the use of Aboriginal land."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 46,
+      "question": "Which group supported the British in the American Revolution?",
+      "options": [
+        "The Loyalists",
+        "The Métis",
+        "The French Canadians",
+        "The Iroquois Confederacy"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 47,
+      "question": "What was the primary purpose of the Charlottetown Conference?",
+      "options": [
+        "To finalize Canada’s independence",
+        "To discuss the unification of British North America into a single country",
+        "To negotiate treaties with Aboriginal peoples",
+        "To establish a bilingual government"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 48,
+      "question": "What was the significance of the Seven Years' War for Canada?",
+      "options": [
+        "It established Canada as an independent nation.",
+        "It ended with France ceding much of its territory in North America to Britain.",
+        "It marked the beginning of the fur trade in Canada.",
+        "It resulted in the signing of the Canadian Charter of Rights and Freedoms."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "question": "What role did the Hudson’s Bay Company play in the development of Canada?",
+      "options": [
+        "It managed the first democratic elections.",
+        "It controlled vast territories and facilitated the fur trade.",
+        "It established Canada’s first educational institutions.",
+        "It abolished British control over Canadian territories."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "question": "Who were the voyageurs?",
+      "options": [
+        "Indigenous leaders who negotiated treaties with the British",
+        "French-Canadian fur traders who transported goods by canoe",
+        "British military officers who defended Canada in the War of 1812",
+        "Settlers who established farming communities in the Prairies"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 51,
+      "question": "What was the primary goal of John Cabot’s exploration in 1497?",
+      "options": [
+        "To find a northwest passage to Asia",
+        "To claim land for Spain",
+        "To establish trade routes with the French",
+        "To discover gold in the Americas"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 52,
+      "question": "What was the outcome of the Battle of Queenston Heights in 1812?",
+      "options": [
+        "The British defeated American forces, securing Upper Canada.",
+        "The French regained control of Quebec.",
+        "The Americans established control over Canadian territories.",
+        "The First Nations declared independence."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 53,
+      "question": "Who were the key Aboriginal allies of the British during the War of 1812?",
+      "options": [
+        "The Haudenosaunee and Mohawk",
+        "The Cree and Blackfoot",
+        "The Métis and Inuit",
+        "The Beothuk and Mi'kmaq"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 54,
+      "question": "What was the purpose of the Act of Union in 1840?",
+      "options": [
+        "To merge Upper and Lower Canada into a single province",
+        "To establish Canada as a bilingual nation",
+        "To create the first national railway",
+        "To declare independence from Britain"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 55,
+      "question": "Who was Tecumseh, and what role did he play in Canadian history?",
+      "options": [
+        "A Métis leader during the Red River Rebellion",
+        "A First Nations leader who allied with the British in the War of 1812",
+        "The first Prime Minister of Canada",
+        "An explorer who established the fur trade"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 56,
+      "question": "What was the significance of the Constitutional Act of 1791?",
+      "options": [
+        "It divided Quebec into Upper and Lower Canada.",
+        "It abolished slavery in Canada.",
+        "It created Canada’s first national police force.",
+        "It established bilingual education in all provinces."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 57,
+      "question": "What was the Halifax Explosion of 1917?",
+      "options": [
+        "A railway accident in Nova Scotia",
+        "A ship collision in Halifax Harbor during World War I, causing a massive explosion",
+        "An uprising by workers in Halifax",
+        "The introduction of submarines into the Canadian Navy"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 58,
+      "question": "What was the purpose of the Indian Act, first passed in 1876?",
+      "options": [
+        "To provide funding for Indigenous education",
+        "To regulate and assimilate First Nations peoples into European culture",
+        "To grant land ownership rights to Indigenous peoples",
+        "To create a voting system for Aboriginal populations"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 59,
+      "question": "What was the main impact of the Quiet Revolution in Quebec during the 1960s?",
+      "options": [
+        "It led to the abolition of the fur trade.",
+        "It resulted in significant social and economic reforms in Quebec.",
+        "It established Quebec as an independent nation.",
+        "It introduced the first railway system in Canada."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 60,
+      "question": "Who were the Plains of Abraham named after?",
+      "options": [
+        "Abraham Lincoln, for his role in the American Civil War",
+        "A French farmer named Abraham who owned the land",
+        "A British soldier who led the Battle of Quebec",
+        "A religious leader from New France"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 61,
+      "question": "What was the impact of the Klondike Gold Rush on Canada?",
+      "options": [
+        "It boosted the economy and population of the Yukon region.",
+        "It led to the establishment of Alberta and Saskatchewan as provinces.",
+        "It caused conflict between Canada and the United States.",
+        "It resulted in the abolishment of the Hudson’s Bay Company."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 62,
+      "question": "What role did the Métis play in the establishment of Manitoba?",
+      "options": [
+        "They negotiated treaties with the British Crown.",
+        "They led the Red River Rebellion, which resulted in Manitoba joining Confederation.",
+        "They discovered the Klondike gold fields.",
+        "They established the first Canadian Parliament."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 63,
+      "question": "What was the result of the Treaty of Ghent in 1814?",
+      "options": [
+        "It ended the American Revolution.",
+        "It ended the War of 1812 between Canada and the United States.",
+        "It granted independence to Upper and Lower Canada.",
+        "It led to the creation of the Canadian Charter of Rights and Freedoms."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 64,
+      "question": "What was the main goal of the Charlottetown Conference in 1864?",
+      "options": [
+        "To establish the first railway system in Canada",
+        "To discuss the unification of British North American colonies into Confederation",
+        "To abolish British rule in Canada",
+        "To draft the Indian Act"
+      ],
+      "answer": 1
+    }
+  ],
+  "modern-canada": [
+    {
+      "id": 1,
+      "question": "What was the significance of the Statute of Westminster in 1931?",
+      "options": [
+        "It granted Canada full legal independence from Britain.",
+        "It established Canada’s bilingual status.",
+        "It created the Canadian Charter of Rights and Freedoms.",
+        "It marked the beginning of Canadian Confederation."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 2,
+      "question": "What major event affected Canada during the 1930s?",
+      "options": [
+        "The First World War",
+        "The Great Depression",
+        "The War of 1812",
+        "The signing of the British North America Act"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "How did Canada contribute during the Second World War?",
+      "options": [
+        "By providing military forces and supplies to the Allies",
+        "By remaining neutral and avoiding conflict",
+        "By joining forces with Germany",
+        "By drafting the United Nations Charter"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is the significance of the Canadian Citizenship Act of 1947?",
+      "options": [
+        "It abolished British rule in Canada.",
+        "It allowed Canadians to become citizens instead of British subjects.",
+        "It granted voting rights to all Canadian citizens.",
+        "It established Canada as a bilingual nation."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "What year was Newfoundland and Labrador added as a Canadian province?",
+      "options": ["1867", "1949", "1967", "1999"],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of Canada’s healthcare system, introduced in the 1960s?",
+      "options": [
+        "To provide free healthcare to Canadian citizens and permanent residents",
+        "To ensure equal distribution of healthcare services globally",
+        "To promote private healthcare institutions",
+        "To mandate only emergency medical services for citizens"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is the Canadian Charter of Rights and Freedoms?",
+      "options": [
+        "A document outlining Canada’s independence from Britain",
+        "Part of Canada’s Constitution that protects individual rights and freedoms",
+        "A trade agreement with the United States and Mexico",
+        "A law that established the Canadian Supreme Court"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "Who was the first female Prime Minister of Canada?",
+      "options": [
+        "Kim Campbell",
+        "Jean Chrétien",
+        "Margaret Thatcher",
+        "Adrienne Clarkson"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 9,
+      "question": "What event led to the patriation of Canada’s Constitution in 1982?",
+      "options": [
+        "The signing of the Statute of Westminster",
+        "The Second World War",
+        "Negotiations led by Prime Minister Pierre Trudeau",
+        "The Great Depression"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "question": "What is the official policy of multiculturalism in Canada?",
+      "options": [
+        "A commitment to recognizing and preserving Canada’s diversity",
+        "A policy to promote a single Canadian identity",
+        "A focus on abolishing immigration",
+        "A policy requiring only English as the official language"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "question": "Which international organization was co-founded by Canada in 1945?",
+      "options": [
+        "NATO",
+        "The United Nations",
+        "The European Union",
+        "The World Trade Organization"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "What major agreement in 1994 boosted trade between Canada, the United States, and Mexico?",
+      "options": [
+        "The Trans-Pacific Partnership",
+        "The Free Trade Agreement",
+        "The North American Free Trade Agreement (NAFTA)",
+        "The United Nations Charter"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 13,
+      "question": "What is the importance of the Official Languages Act of 1969?",
+      "options": [
+        "It declared Canada a bilingual country with English and French as official languages.",
+        "It mandated the use of French in Quebec only.",
+        "It abolished the use of French in Canadian government.",
+        "It introduced Spanish as an official language in Canada."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "question": "What year was Nunavut established as a Canadian territory?",
+      "options": ["1949", "1967", "1999", "2005"],
+      "answer": 2
+    },
+    {
+      "id": 15,
+      "question": "What was the Quiet Revolution in Quebec during the 1960s?",
+      "options": [
+        "A peaceful movement advocating for Quebec’s independence",
+        "A period of rapid social, political, and economic changes in Quebec",
+        "The establishment of Canada’s healthcare system",
+        "A movement to abolish French as an official language in Quebec"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is the role of the Canadian Human Rights Act, passed in 1977?",
+      "options": [
+        "To promote equality and prevent discrimination",
+        "To establish Canada’s Supreme Court",
+        "To declare Canada a bilingual nation",
+        "To provide voting rights for women"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of the Canadian Multiculturalism Act of 1988?",
+      "options": [
+        "To promote cultural understanding and diversity in Canada",
+        "To enforce a single Canadian identity",
+        "To abolish immigration policies",
+        "To establish English as the sole official language"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is the significance of Canada’s Peacekeeping missions?",
+      "options": [
+        "To promote global peace and security through United Nations missions",
+        "To expand Canada’s territory",
+        "To establish trade agreements worldwide",
+        "To defend Canada’s borders exclusively"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "question": "Which Canadian Prime Minister introduced the Official Languages Act in 1969?",
+      "options": [
+        "Lester B. Pearson",
+        "Pierre Trudeau",
+        "John Diefenbaker",
+        "Jean Chrétien"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "What major event did Expo 67 commemorate in Canada?",
+      "options": [
+        "Canada’s 100th anniversary of Confederation",
+        "The introduction of multiculturalism",
+        "The founding of the United Nations",
+        "The establishment of the Canadian Charter of Rights and Freedoms"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is the significance of the National Flag of Canada, adopted in 1965?",
+      "options": [
+        "It established the maple leaf as a Canadian symbol.",
+        "It replaced the British Union Jack as the official flag.",
+        "It symbolized Canada's independence and unity.",
+        "All of the above."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 22,
+      "question": "Who introduced Canada’s universal healthcare system?",
+      "options": [
+        "John Diefenbaker",
+        "Tommy Douglas",
+        "Pierre Trudeau",
+        "Lester B. Pearson"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "What international event was hosted in Vancouver in 2010?",
+      "options": [
+        "The FIFA World Cup",
+        "The Summer Olympics",
+        "The Winter Olympics",
+        "The G7 Summit"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 24,
+      "question": "What was the result of the 1995 Quebec referendum?",
+      "options": [
+        "Quebec voted to become an independent country.",
+        "Quebec voted to remain a part of Canada.",
+        "Quebec adopted English as its official language.",
+        "Quebec became a bilingual province."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is the role of Canada in the Group of Seven (G7)?",
+      "options": [
+        "To represent developing nations in global decisions",
+        "To collaborate with advanced economies on global issues",
+        "To negotiate trade deals exclusively with the United States",
+        "To provide military aid to NATO members"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is the purpose of Canada’s Immigration and Refugee Protection Act?",
+      "options": [
+        "To regulate immigration and protect refugees in Canada",
+        "To establish trade agreements with other countries",
+        "To prevent immigration from non-European countries",
+        "To abolish refugee programs"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 27,
+      "question": "What was the significance of the Meech Lake Accord of 1987?",
+      "options": [
+        "It attempted to gain Quebec’s consent to the Constitution.",
+        "It granted Aboriginal peoples full citizenship rights.",
+        "It introduced universal suffrage in Canada.",
+        "It established Canada’s bilingual status."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is the role of Canada in NATO?",
+      "options": [
+        "To provide humanitarian aid globally",
+        "To promote global trade agreements",
+        "To collaborate in mutual defense and security initiatives",
+        "To maintain economic stability in the Americas"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 29,
+      "question": "What major environmental event did Canada host in 1987?",
+      "options": [
+        "The signing of the Kyoto Protocol",
+        "The Montreal Protocol on substances depleting the ozone layer",
+        "The establishment of the United Nations Framework Convention on Climate Change",
+        "The creation of Canada’s National Parks System"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "question": "What is the significance of Canada’s participation in the International Space Station program?",
+      "options": [
+        "Canada became a leader in space exploration.",
+        "Canada developed the Canadarm, a key robotic contribution.",
+        "Canada was the first country to build an independent space station.",
+        "Canada hosted the first international space summit."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "question": "Which Canadian province was the first to grant women the right to vote?",
+      "options": ["Ontario", "Manitoba", "British Columbia", "Quebec"],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "question": "What is the role of the Supreme Court of Canada?",
+      "options": [
+        "To oversee municipal elections",
+        "To interpret and apply Canadian law at the highest level",
+        "To represent Canada in international legal disputes",
+        "To manage provincial education policies"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "question": "What major change occurred in Canadian immigration policy in 1967?",
+      "options": [
+        "The introduction of the points-based system",
+        "The exclusion of non-European immigrants",
+        "The removal of refugee programs",
+        "The establishment of permanent residency"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 34,
+      "question": "What does Canada’s policy on peacekeeping emphasize?",
+      "options": [
+        "Military expansion",
+        "Supporting conflict resolution and rebuilding efforts worldwide",
+        "Securing borders against neighboring countries",
+        "Negotiating trade agreements"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is the role of the Governor General in modern Canada?",
+      "options": [
+        "To lead the federal government",
+        "To represent the monarch in Canada",
+        "To manage provincial affairs",
+        "To oversee the Canadian Armed Forces"
+      ],
+      "answer": 1
+    }
+  ],
+  "how-canadians-govern-themselves": [
+    {
+      "id": 1,
+      "question": "What is the Constitution of Canada?",
+      "options": [
+        "A document that outlines the rights of provinces only",
+        "The highest law in Canada, outlining the country’s system of government and rights of citizens",
+        "A law that establishes Canada’s military policies",
+        "An agreement with the United Nations"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the role of the Governor General in Canada?",
+      "options": [
+        "To lead the Canadian Parliament",
+        "To represent the British monarch in Canada",
+        "To oversee municipal governments",
+        "To make all federal laws"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "What are the three branches of government in Canada?",
+      "options": [
+        "Executive, Legislative, and Judicial",
+        "Federal, Provincial, and Territorial",
+        "Local, Regional, and National",
+        "Monarchy, Senate, and Parliament"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is the role of the Executive Branch in Canada?",
+      "options": [
+        "To make and enforce laws",
+        "To interpret the laws",
+        "To create international treaties",
+        "To oversee municipal governments"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 5,
+      "question": "Who is the Head of State in Canada?",
+      "options": [
+        "The Prime Minister",
+        "The Governor General",
+        "The Monarch (King or Queen)",
+        "The Speaker of the House of Commons"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 6,
+      "question": "Who is the Head of Government in Canada?",
+      "options": [
+        "The Governor General",
+        "The Prime Minister",
+        "The Chief Justice",
+        "The Minister of Finance"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is the primary role of the House of Commons?",
+      "options": [
+        "To represent Canada internationally",
+        "To make and pass laws",
+        "To oversee the military",
+        "To interpret the laws"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "How are Members of Parliament (MPs) chosen?",
+      "options": [
+        "Appointed by the Governor General",
+        "Elected by Canadian citizens",
+        "Selected by the Prime Minister",
+        "Chosen by provincial premiers"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is the role of the Senate in Canada?",
+      "options": [
+        "To introduce new laws",
+        "To provide a second review of proposed laws",
+        "To enforce the laws",
+        "To represent municipalities"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "question": "Who appoints Senators in Canada?",
+      "options": [
+        "The Governor General on the advice of the Prime Minister",
+        "The citizens of Canada",
+        "The provincial premiers",
+        "The Supreme Court"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is the responsibility of the Judicial Branch in Canada?",
+      "options": [
+        "To create and amend laws",
+        "To interpret and apply the law",
+        "To oversee elections",
+        "To manage foreign relations"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is federalism in Canada?",
+      "options": [
+        "A system of government where powers are shared between the federal and provincial governments",
+        "A system where only the federal government has authority",
+        "A system where each province is independent",
+        "A monarchy-based governance system"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "How often are federal elections held in Canada?",
+      "options": [
+        "Every two years",
+        "Every four years",
+        "Every five years",
+        "Every ten years"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 14,
+      "question": "What is the role of the Prime Minister?",
+      "options": [
+        "To enforce provincial laws",
+        "To lead the federal government and make policy decisions",
+        "To represent Canada in the United Nations",
+        "To appoint provincial premiers"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is a coalition government?",
+      "options": [
+        "A government formed by one political party with a majority of seats",
+        "A government formed by multiple political parties working together",
+        "A temporary government appointed by the Governor General",
+        "A government managed by municipal representatives"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is the significance of the Charter of Rights and Freedoms in Canada’s governance?",
+      "options": [
+        "It outlines Canada’s relationship with the United States.",
+        "It guarantees the fundamental rights and freedoms of Canadians.",
+        "It establishes the rules for provincial governance.",
+        "It defines Canada’s military obligations."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is the role of the Speaker of the House of Commons?",
+      "options": [
+        "To enforce laws passed by Parliament",
+        "To oversee debates in the House of Commons",
+        "To appoint Members of Parliament",
+        "To represent Canada internationally"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is a bill in the Canadian government?",
+      "options": [
+        "A proposed law presented to Parliament",
+        "A tax document issued to Canadian citizens",
+        "An amendment to the Constitution",
+        "A treaty between Canada and other countries"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is the role of Lieutenant Governors in Canada?",
+      "options": [
+        "To represent the Prime Minister at the provincial level",
+        "To represent the monarch in each province",
+        "To oversee municipal governments",
+        "To manage provincial economies"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is the role of provincial and territorial governments in Canada?",
+      "options": [
+        "To manage issues like healthcare, education, and transportation within their jurisdictions",
+        "To oversee federal policies",
+        "To manage international trade agreements",
+        "To appoint Senators"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is the purpose of a political party in Canada?",
+      "options": [
+        "To oversee the judiciary",
+        "To organize candidates who share similar political beliefs and seek to form government",
+        "To appoint Members of Parliament",
+        "To manage Canada’s economy"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "question": "What happens when a political party wins the majority of seats in the House of Commons?",
+      "options": [
+        "It forms the government.",
+        "It appoints the Governor General.",
+        "It becomes part of the Senate.",
+        "It drafts the Constitution."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is the role of the Opposition in Canada’s Parliament?",
+      "options": [
+        "To enforce laws passed by the government",
+        "To question and hold the government accountable",
+        "To oversee provincial legislatures",
+        "To appoint Senators"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is the title of the leader of the Opposition in Canada?",
+      "options": [
+        "Prime Minister",
+        "Governor General",
+        "Leader of the Official Opposition",
+        "Speaker of the House"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 25,
+      "question": "How is a Prime Minister chosen in Canada?",
+      "options": [
+        "Appointed by the Governor General",
+        "Elected by Canadian citizens directly",
+        "The leader of the political party with the most seats in the House of Commons becomes Prime Minister",
+        "Appointed by the Senate"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 26,
+      "question": "What is a minority government in Canada?",
+      "options": [
+        "A government formed by a coalition of multiple parties",
+        "A government where the ruling party has fewer seats than the Opposition",
+        "A government where the ruling party holds fewer than half the seats in the House of Commons",
+        "A government that only governs one province"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 27,
+      "question": "What is a vote of non-confidence in Canadian politics?",
+      "options": [
+        "A vote to remove the Speaker of the House",
+        "A vote that indicates the government no longer has the support of the majority in the House of Commons",
+        "A vote to pass new legislation",
+        "A vote to dissolve the Senate"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "question": "What is the function of the Clerk of the House of Commons?",
+      "options": [
+        "To maintain order during debates",
+        "To assist in the daily operations of the House and keep records",
+        "To represent the Governor General in Parliament",
+        "To appoint Senators"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "question": "What is the purpose of the Question Period in the House of Commons?",
+      "options": [
+        "To pass new laws",
+        "To allow MPs to question the government about its actions and policies",
+        "To debate provincial matters",
+        "To appoint new members of Parliament"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "question": "What is the role of municipal governments in Canada?",
+      "options": [
+        "To manage federal tax collection",
+        "To oversee matters like local policing, public transit, and water supply",
+        "To establish international trade agreements",
+        "To enforce national healthcare policies"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "question": "What are by-laws in municipal governments?",
+      "options": [
+        "Rules passed by provinces",
+        "Local laws or regulations passed by municipal councils",
+        "International treaties signed by Canada",
+        "Rules established by the Governor General"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "question": "What is the main role of provincial premiers?",
+      "options": [
+        "To lead the federal government",
+        "To represent their provinces and lead provincial governments",
+        "To appoint Members of Parliament",
+        "To oversee the Canadian Armed Forces"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "question": "What is the role of Cabinet Ministers in Canada?",
+      "options": [
+        "To assist the Governor General in ceremonial duties",
+        "To manage specific portfolios such as health, finance, or defense",
+        "To enforce judicial decisions",
+        "To represent provinces in Parliament"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "question": "How is the Speaker of the House of Commons chosen?",
+      "options": [
+        "Appointed by the Governor General",
+        "Elected by Members of Parliament",
+        "Appointed by the Prime Minister",
+        "Chosen by Canadian citizens in a general election"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is a ridings or constituency in Canadian politics?",
+      "options": [
+        "An administrative region used for appointing Senators",
+        "A geographical area represented by an elected Member of Parliament",
+        "A ceremonial district managed by the Governor General",
+        "A region used for trade agreements"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is the role of the Chief Electoral Officer?",
+      "options": [
+        "To oversee Canada’s international relations",
+        "To ensure that elections in Canada are conducted fairly and impartially",
+        "To manage political parties in Canada",
+        "To represent the Prime Minister during Question Period"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "question": "What is prorogation in Canadian politics?",
+      "options": [
+        "The dissolution of Parliament for elections",
+        "The suspension of Parliament by the Governor General on the advice of the Prime Minister",
+        "The removal of the Prime Minister from office",
+        "The introduction of new laws in the House of Commons"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is the importance of provincial legislatures in Canada?",
+      "options": [
+        "To oversee federal laws",
+        "To pass laws on provincial matters such as education and healthcare",
+        "To enforce federal tax policies",
+        "To manage municipal governments"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 39,
+      "question": "What is the maximum duration of a Parliament in Canada?",
+      "options": ["Three years", "Four years", "Five years", "Six years"],
+      "answer": 2
+    },
+    {
+      "id": 40,
+      "question": "What is royal assent in Canadian politics?",
+      "options": [
+        "The approval given by the Governor General or monarch to make a bill into law",
+        "A vote of confidence in the House of Commons",
+        "The Governor General’s decision to dissolve Parliament",
+        "A treaty signed between provinces"
+      ],
+      "answer": 0
+    }
+  ],
+  "federal-elections": [
+    {
+      "id": 1,
+      "question": "What is the purpose of a federal election in Canada?",
+      "options": [
+        "To elect the Governor General",
+        "To choose Members of Parliament (MPs) to represent Canadians in the House of Commons",
+        "To appoint Senators",
+        "To create new provinces and territories"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "How often must federal elections be held in Canada?",
+      "options": [
+        "Every two years",
+        "Every four years",
+        "Every five years or sooner",
+        "Every six years"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "question": "Who is eligible to vote in a federal election in Canada?",
+      "options": [
+        "All residents of Canada",
+        "Canadian citizens aged 18 or older on election day",
+        "Permanent residents of Canada",
+        "Anyone who has lived in Canada for at least five years"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is the role of Elections Canada?",
+      "options": [
+        "To oversee provincial and territorial elections",
+        "To manage the federal election process and ensure it is fair and impartial",
+        "To draft laws for Parliament",
+        "To appoint Members of Parliament"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is a riding or electoral district?",
+      "options": [
+        "A geographical area represented by a Member of Parliament",
+        "A province-wide voting area",
+        "A region defined for municipal governance",
+        "A zone used for appointing Senators"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 6,
+      "question": "How are Members of Parliament (MPs) elected in Canada?",
+      "options": [
+        "Appointed by the Prime Minister",
+        "Elected by citizens in each riding or electoral district",
+        "Chosen by provincial premiers",
+        "Appointed by the Governor General"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is the significance of the voting age in Canada?",
+      "options": [
+        "It determines who can run for office.",
+        "It ensures only Canadian citizens aged 18 or older can vote in federal elections.",
+        "It limits the number of candidates in each riding.",
+        "It allows permanent residents to vote in municipal elections."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "What happens if a political party wins the majority of seats in the House of Commons?",
+      "options": [
+        "It forms the government, and its leader becomes the Prime Minister.",
+        "It dissolves the opposition parties.",
+        "It automatically becomes the Senate majority.",
+        "It drafts the Canadian Constitution."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of a voter information card?",
+      "options": [
+        "To register for provincial elections",
+        "To inform voters about where and when to vote",
+        "To act as proof of citizenship",
+        "To appoint election officials"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "question": "What identification is required to vote in a federal election?",
+      "options": [
+        "No identification is required",
+        "A valid passport only",
+        "Proof of identity and address, such as a government-issued ID",
+        "A Canadian citizenship certificate"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 11,
+      "question": "What is advance voting?",
+      "options": [
+        "Voting on the day before the official election day",
+        "Voting before election day to accommodate voters who cannot vote on the official day",
+        "Voting by candidates and officials",
+        "Voting for referendums only"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is a minority government?",
+      "options": [
+        "A government where the ruling party holds fewer than half the seats in the House of Commons",
+        "A coalition of all political parties",
+        "A government with no opposition",
+        "A temporary government appointed by the Governor General"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "What happens if no party wins a majority of seats in a federal election?",
+      "options": [
+        "The Governor General appoints a new Prime Minister.",
+        "The party with the most seats usually forms a minority government.",
+        "A re-election is automatically held.",
+        "The Senate takes control of the government."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is a by-election?",
+      "options": [
+        "An election held in all ridings to replace Members of Parliament",
+        "An election held in a specific riding to fill a vacancy between general elections",
+        "A re-election of the Prime Minister",
+        "A vote held to amend the Constitution"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is the role of a scrutineer during an election?",
+      "options": [
+        "To campaign for candidates",
+        "To ensure votes are counted accurately and fairly",
+        "To manage polling stations",
+        "To draft election policies"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is the first-past-the-post electoral system?",
+      "options": [
+        "A system where the candidate with the most votes in a riding wins",
+        "A proportional representation system",
+        "A system where the party with the most total votes wins all seats",
+        "A system requiring a runoff election for a winner"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "question": "Who oversees the operation of polling stations during a federal election?",
+      "options": [
+        "The Prime Minister",
+        "Elections Canada officials",
+        "Senators",
+        "Provincial representatives"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is the term length for Members of Parliament in Canada?",
+      "options": [
+        "Two years",
+        "Four years",
+        "Five years or sooner if an election is called",
+        "Six years"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 19,
+      "question": "What is the primary role of a Member of Parliament?",
+      "options": [
+        "To interpret Canadian laws",
+        "To represent their constituents in the House of Commons",
+        "To oversee provincial governments",
+        "To manage municipal elections"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is the role of the Chief Electoral Officer?",
+      "options": [
+        "To manage the federal election process and ensure fairness",
+        "To oversee provincial legislatures",
+        "To draft election laws",
+        "To represent political parties in debates"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is a campaign period in federal elections?",
+      "options": [
+        "The time between the Governor General's appointment and election day",
+        "The time during which candidates and parties promote their platforms to voters",
+        "The week after election results are announced",
+        "The time when the Prime Minister appoints Senators"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "question": "What is the significance of the writ of election?",
+      "options": [
+        "It declares a candidate elected in a riding.",
+        "It is an official document issued to start a federal election.",
+        "It is a document dissolving Parliament.",
+        "It grants voting rights to Canadian citizens."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "Who has the authority to dissolve Parliament and call a federal election?",
+      "options": [
+        "The Prime Minister",
+        "The Governor General on the advice of the Prime Minister",
+        "The Chief Electoral Officer",
+        "The Speaker of the House"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is the purpose of a polling station during a federal election?",
+      "options": [
+        "To oversee election campaigns",
+        "To provide a location for voters to cast their ballots",
+        "To count the votes and announce results",
+        "To register new political parties"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is the role of a Returning Officer in federal elections?",
+      "options": [
+        "To oversee all federal elections across Canada",
+        "To manage the election process in a specific riding or electoral district",
+        "To appoint Members of Parliament",
+        "To enforce election laws"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "question": "What happens if there is a tie in a federal election riding?",
+      "options": [
+        "The Governor General decides the winner.",
+        "A runoff election is held in the riding.",
+        "The winner is decided by a coin toss or drawing of lots.",
+        "The party leader selects the representative."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 27,
+      "question": "What is a political platform in the context of federal elections?",
+      "options": [
+        "The stage used for debates",
+        "The set of policies and promises presented by a political party",
+        "The law that governs federal elections",
+        "The building where votes are counted"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "question": "What is an independent candidate in a federal election?",
+      "options": [
+        "A candidate not affiliated with any political party",
+        "A candidate appointed by the Governor General",
+        "A candidate running in multiple ridings",
+        "A candidate chosen by the Senate"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is the role of an election observer?",
+      "options": [
+        "To ensure that voting and counting are conducted fairly and transparently",
+        "To enforce election laws at polling stations",
+        "To campaign for candidates",
+        "To represent the Governor General at elections"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is the primary role of political parties during federal elections?",
+      "options": [
+        "To draft federal legislation",
+        "To select candidates and promote their platforms to voters",
+        "To manage provincial governments",
+        "To enforce voting regulations"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "question": "What is an election recount?",
+      "options": [
+        "A mandatory process after every federal election",
+        "A re-tallying of votes in a riding to ensure accuracy",
+        "A re-election due to low voter turnout",
+        "A process to nominate candidates for the next election"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "question": "What is the difference between a majority and minority government?",
+      "options": [
+        "A majority government has more MPs than all other parties combined, while a minority does not.",
+        "A majority government only governs for four years, while a minority governs indefinitely.",
+        "A minority government can veto all legislation, while a majority cannot.",
+        "There is no difference; the terms are interchangeable."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is the significance of the Canada Elections Act?",
+      "options": [
+        "It establishes rules for federal elections and referendums in Canada.",
+        "It defines the powers of the Prime Minister.",
+        "It outlines the process for appointing Senators.",
+        "It governs the creation of new provinces."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is voter turnout?",
+      "options": [
+        "The percentage of eligible voters who cast ballots in an election",
+        "The number of candidates in an election",
+        "The process of registering new voters",
+        "The official count of votes for each candidate"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 35,
+      "question": "What happens to ballots after they are cast?",
+      "options": [
+        "They are destroyed immediately after the election.",
+        "They are counted and stored securely by Elections Canada.",
+        "They are kept indefinitely for historical records.",
+        "They are reviewed by the Senate."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is a coalition government?",
+      "options": [
+        "A government formed by one political party with a majority of seats",
+        "A temporary government formed by two or more political parties working together",
+        "A government appointed by the Governor General",
+        "A permanent alliance between all political parties"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "question": "What is the purpose of advance voting days?",
+      "options": [
+        "To allow early voting for those unable to vote on election day",
+        "To conduct practice elections",
+        "To register new voters",
+        "To finalize election results early"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 38,
+      "question": "Who can run as a candidate in a federal election?",
+      "options": [
+        "Any Canadian citizen who is at least 18 years old and meets the nomination requirements",
+        "Only members of a political party",
+        "Only individuals with a law degree",
+        "Only permanent residents who have lived in Canada for five years"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is a referendum in Canadian politics?",
+      "options": [
+        "An election to select a new Prime Minister",
+        "A direct vote by citizens on a specific issue or law",
+        "A vote to dissolve Parliament",
+        "A process to appoint new Members of Parliament"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is the role of the media during federal elections?",
+      "options": [
+        "To campaign for political parties",
+        "To provide information about candidates and issues to the public",
+        "To count and verify votes",
+        "To enforce election laws"
+      ],
+      "answer": 1
+    }
+  ],
+  "the-justice-system": [
+    {
+      "id": 1,
+      "question": "What is the role of the justice system in Canada?",
+      "options": [
+        "To draft new laws",
+        "To uphold the law, protect rights, and maintain order in society",
+        "To enforce international treaties",
+        "To manage federal elections"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the two main legal traditions in Canada?",
+      "options": [
+        "Common law and civil law",
+        "International law and criminal law",
+        "Constitutional law and family law",
+        "Corporate law and administrative law"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 3,
+      "question": "Which province in Canada uses civil law as its legal tradition?",
+      "options": ["Ontario", "Quebec", "British Columbia", "Alberta"],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is the role of the Supreme Court of Canada?",
+      "options": [
+        "To draft new laws for the federal government",
+        "To interpret the Constitution and act as the highest court of appeal in Canada",
+        "To oversee provincial courts",
+        "To enforce local by-laws"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is the presumption of innocence in Canadian law?",
+      "options": [
+        "An individual is presumed guilty until proven innocent",
+        "An individual is presumed innocent until proven guilty",
+        "An individual is presumed guilty if charged with a serious crime",
+        "An individual is presumed innocent only in civil cases"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "What are the three main types of law in Canada?",
+      "options": [
+        "Criminal law, family law, and international law",
+        "Public law, private law, and military law",
+        "Criminal law, civil law, and constitutional law",
+        "Corporate law, environmental law, and property law"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of criminal law in Canada?",
+      "options": [
+        "To resolve disputes between individuals",
+        "To protect society by punishing those who break the law",
+        "To regulate international trade",
+        "To draft new provincial laws"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "Who enforces criminal laws in Canada?",
+      "options": [
+        "Municipal governments",
+        "Provincial premiers",
+        "Police forces and the courts",
+        "International organizations"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 9,
+      "question": "What is the role of a judge in the Canadian justice system?",
+      "options": [
+        "To write new laws for Parliament",
+        "To interpret and apply the law impartially in individual cases",
+        "To oversee the police force",
+        "To represent Canada in international courts"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is the role of a jury in criminal trials in Canada?",
+      "options": [
+        "To advise the judge on sentencing",
+        "To determine the guilt or innocence of the accused based on evidence",
+        "To create new laws for the justice system",
+        "To act as representatives of the Supreme Court"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of the Canadian Charter of Rights and Freedoms in the justice system?",
+      "options": [
+        "To outline responsibilities for the police",
+        "To guarantee fundamental rights and freedoms to all Canadians",
+        "To provide funding for legal education",
+        "To set penalties for criminal offenses"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is a civil case in the Canadian justice system?",
+      "options": [
+        "A case involving a dispute between individuals or organizations",
+        "A case involving violations of criminal law",
+        "A case handled exclusively by the Supreme Court",
+        "A case involving international treaties"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is the role of the RCMP in the Canadian justice system?",
+      "options": [
+        "To enforce laws at the federal, provincial, and territorial levels",
+        "To oversee municipal governments",
+        "To draft new laws for Parliament",
+        "To represent Canada in international peacekeeping missions"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "question": "What does the term 'access to justice' mean in Canada?",
+      "options": [
+        "The right to have free legal representation",
+        "The ability for individuals to understand and use the legal system effectively",
+        "The right to avoid court proceedings",
+        "The right to appoint their own judge"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is legal aid in Canada?",
+      "options": [
+        "Financial assistance provided to individuals who cannot afford legal representation",
+        "A program that provides free legal representation to all Canadians",
+        "A law that ensures fair trials",
+        "A system of courts specifically for low-income individuals"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of sentencing in the criminal justice system?",
+      "options": [
+        "To protect the public and deter criminal behavior",
+        "To compensate victims of crimes",
+        "To increase the number of court cases",
+        "To enforce international treaties"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "question": "What are provincial and territorial courts responsible for?",
+      "options": [
+        "Handling serious criminal cases only",
+        "Handling the majority of legal disputes, including criminal and family cases",
+        "Enforcing municipal by-laws",
+        "Interpreting the Canadian Constitution"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is the role of the Attorney General in Canada?",
+      "options": [
+        "To enforce international treaties",
+        "To serve as the chief legal advisor to the government",
+        "To oversee municipal courts",
+        "To draft all criminal laws in Canada"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is a tribunal in the Canadian justice system?",
+      "options": [
+        "A specialized body that resolves disputes outside traditional courts",
+        "A jury in a criminal trial",
+        "The Supreme Court of Canada",
+        "A type of municipal government body"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 20,
+      "question": "What does 'rule of law' mean in Canada?",
+      "options": [
+        "Everyone, including the government, must follow the law.",
+        "Only elected officials are bound by the law.",
+        "The law applies only to criminal cases.",
+        "The law is enforced differently in each province."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is the difference between a civil and a criminal case in Canada?",
+      "options": [
+        "Civil cases involve disputes between individuals or organizations, while criminal cases involve violations of the law.",
+        "Civil cases involve crimes, while criminal cases are for minor disputes.",
+        "Civil cases are heard by juries, while criminal cases are decided by judges.",
+        "Civil cases are managed by the federal government, while criminal cases are handled by provinces."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is the purpose of probation in the Canadian justice system?",
+      "options": [
+        "To incarcerate offenders temporarily",
+        "To allow offenders to serve their sentence under supervision in the community",
+        "To absolve offenders of their crime",
+        "To transfer cases to higher courts"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is a plea bargain in the Canadian justice system?",
+      "options": [
+        "An agreement between the defense and prosecution to resolve a case without a trial",
+        "A mandatory sentencing guideline",
+        "A method for selecting jurors",
+        "A legal document used to appeal a case"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 24,
+      "question": "What does the term 'bail' mean in Canada?",
+      "options": [
+        "The immediate imprisonment of an accused person",
+        "The temporary release of an accused person before trial, under specific conditions",
+        "The final judgment of a court",
+        "The dismissal of a case"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is restorative justice?",
+      "options": [
+        "A process that focuses on punishing offenders",
+        "A justice approach that emphasizes repairing harm caused by criminal behavior",
+        "A system of mandatory incarceration for offenders",
+        "A method for resolving civil disputes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is a precedent in Canadian law?",
+      "options": [
+        "A new law passed by Parliament",
+        "A legal decision that serves as a rule for future similar cases",
+        "A special committee for reviewing laws",
+        "A legal document submitted during trials"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is habeas corpus in the context of Canadian law?",
+      "options": [
+        "The right to free legal representation",
+        "The right to challenge unlawful detention before a court",
+        "The right to vote in legal matters",
+        "The obligation to appear for jury duty"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "question": "What is the role of Crown Counsel in Canada?",
+      "options": [
+        "To defend individuals accused of crimes",
+        "To represent the government in prosecuting criminal cases",
+        "To oversee provincial courts",
+        "To advise the Prime Minister on legal matters"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "question": "What is the Youth Criminal Justice Act?",
+      "options": [
+        "A law that establishes a separate system for handling cases involving young offenders",
+        "A law that sets voting rights for youth",
+        "A guideline for appointing judges under the age of 25",
+        "A policy for funding youth education"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is parole in the Canadian justice system?",
+      "options": [
+        "A punishment that extends a prison sentence",
+        "A temporary leave from prison for medical reasons",
+        "A conditional release of an offender before the full sentence is served",
+        "A method to appeal a court decision"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 31,
+      "question": "What is the difference between summary and indictable offenses?",
+      "options": [
+        "Summary offenses are less serious and carry lighter penalties, while indictable offenses are more serious and carry heavier penalties.",
+        "Summary offenses are tried only in provincial courts, while indictable offenses are tried only in federal courts.",
+        "Summary offenses apply to civil cases, while indictable offenses apply to criminal cases.",
+        "Summary offenses require juries, while indictable offenses do not."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is the purpose of a probation officer in Canada?",
+      "options": [
+        "To oversee judges' rulings",
+        "To supervise offenders serving probation in the community",
+        "To enforce laws at the municipal level",
+        "To represent victims during trials"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "question": "What is the primary role of the Federal Court of Canada?",
+      "options": [
+        "To handle serious criminal cases",
+        "To hear cases involving federal laws and disputes between provinces",
+        "To oversee provincial legislatures",
+        "To manage appeals for municipal courts"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "question": "What is double jeopardy in Canadian law?",
+      "options": [
+        "The ability to appeal a case multiple times",
+        "A legal principle that prevents a person from being tried twice for the same offense",
+        "A mandatory minimum sentence for repeat offenders",
+        "The requirement to face both civil and criminal charges for the same act"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is the purpose of sentencing guidelines in Canada?",
+      "options": [
+        "To enforce mandatory imprisonment for all offenses",
+        "To ensure fairness and consistency in sentencing across the country",
+        "To eliminate jury trials for criminal cases",
+        "To create new laws for criminal justice"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is an appeal in the Canadian justice system?",
+      "options": [
+        "A request to create new laws",
+        "A request to have a higher court review a decision made by a lower court",
+        "A document that outlines sentencing requirements",
+        "A trial involving multiple judges"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "question": "What is the role of Indigenous courts in Canada?",
+      "options": [
+        "To replace the provincial court system",
+        "To address cases involving Indigenous peoples using culturally relevant practices",
+        "To enforce federal laws on reserves",
+        "To oversee only civil cases"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is the purpose of community service as a sentence in Canada?",
+      "options": [
+        "To provide financial compensation to victims",
+        "To allow offenders to contribute positively to society as part of their rehabilitation",
+        "To replace incarceration for all crimes",
+        "To serve as a probation requirement"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 39,
+      "question": "What is a conditional discharge in the Canadian justice system?",
+      "options": [
+        "An immediate release from custody with no conditions",
+        "A court decision to release an offender under certain conditions, with no criminal record if conditions are met",
+        "A sentence involving mandatory community service",
+        "A transfer of a case to another court"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is the primary purpose of the Corrections System in Canada?",
+      "options": [
+        "To investigate crimes",
+        "To manage offenders in prisons and under community supervision",
+        "To draft sentencing guidelines",
+        "To oversee court trials"
+      ],
+      "answer": 1
+    }
+  ],
+  "canadian-symbols": [
+    {
+      "id": 1,
+      "question": "What is the national flag of Canada?",
+      "options": [
+        "A red flag with a white cross",
+        "A white flag with a red maple leaf in the center and red borders on each side",
+        "A flag with blue and white stripes",
+        "A red and white flag with a beaver symbol"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "What does the maple leaf on the Canadian flag symbolize?",
+      "options": [
+        "Canada’s natural beauty and forests",
+        "The country's commitment to agriculture",
+        "The original provinces of Canada",
+        "Canada’s relationship with the United States"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is the official national anthem of Canada?",
+      "options": [
+        "God Save the Queen",
+        "O Canada",
+        "The Maple Leaf Forever",
+        "Land of the Free"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "What are the official colors of Canada?",
+      "options": [
+        "Blue and white",
+        "Green and gold",
+        "Red and white",
+        "Black and yellow"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "question": "What is the national animal of Canada?",
+      "options": ["The moose", "The bear", "The beaver", "The loon"],
+      "answer": 2
+    },
+    {
+      "id": 6,
+      "question": "What does the beaver symbolize in Canada?",
+      "options": [
+        "The strength and resilience of Canadians",
+        "Canada’s connection to the fur trade and economic history",
+        "The wildlife of the Arctic",
+        "Canada’s national parks"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is the Canadian motto, and what does it mean?",
+      "options": [
+        "\"True North Strong and Free\" – symbolizing freedom",
+        "\"From Sea to Sea\" – symbolizing the vast geography of Canada",
+        "\"Unity in Diversity\" – symbolizing multiculturalism",
+        "\"Strength and Honor\" – symbolizing Canadian values"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "What does the Parliament Hill symbolize in Canada?",
+      "options": [
+        "Canada’s colonial history",
+        "Canada’s democratic government and political identity",
+        "Canada’s cultural diversity",
+        "Canada’s economic power"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "What are the main features of the Canadian Coat of Arms?",
+      "options": [
+        "A beaver, a maple leaf, and a moose",
+        "Lions, a unicorn, and maple leaves",
+        "A crown, maple leaves, and the fleur-de-lis",
+        "A polar bear, a crown, and wheat"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "question": "What is the significance of the fleur-de-lis in Canadian symbols?",
+      "options": [
+        "It represents Indigenous heritage.",
+        "It symbolizes Canada’s French heritage.",
+        "It was the first national emblem of Canada.",
+        "It represents Canada’s British ties."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "Which Canadian symbol is featured on the one-dollar coin?",
+      "options": ["A beaver", "A loon", "A maple leaf", "A polar bear"],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is the official sports symbol of Canada?",
+      "options": [
+        "Ice hockey and lacrosse",
+        "Basketball and baseball",
+        "Soccer and curling",
+        "Cricket and tennis"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is the significance of the RCMP in Canadian symbols?",
+      "options": [
+        "It represents Canada’s multiculturalism.",
+        "It symbolizes law, order, and national identity.",
+        "It is a symbol of Canada’s Indigenous heritage.",
+        "It represents Canada’s ties to the monarchy."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is Canada’s oldest national symbol?",
+      "options": [
+        "The beaver",
+        "The maple leaf",
+        "The polar bear",
+        "The fleur-de-lis"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of the National Flag of Canada Day?",
+      "options": [
+        "To celebrate the adoption of Canada’s national flag",
+        "To honor Canadian veterans",
+        "To celebrate multiculturalism",
+        "To commemorate Confederation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 16,
+      "question": "What does the maple tree symbolize in Canadian culture?",
+      "options": [
+        "Strength and endurance",
+        "Canada’s connection to the United Kingdom",
+        "The cultural traditions of Quebec",
+        "The geography of the Arctic"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is the significance of the Canadian Crown as a symbol?",
+      "options": [
+        "It represents Canada’s Indigenous peoples.",
+        "It is a symbol of Canada’s ties to the British monarchy and system of government.",
+        "It symbolizes Canada’s geographic diversity.",
+        "It represents Canada’s natural resources."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "question": "What historical event is depicted in the painting \"The Fathers of Confederation\"?",
+      "options": [
+        "The signing of the Treaty of Paris",
+        "The creation of the Hudson’s Bay Company",
+        "The conferences leading to Canadian Confederation in 1867",
+        "The founding of the RCMP"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 19,
+      "question": "What does the loon on the Canadian one-dollar coin represent?",
+      "options": [
+        "Canada's connection to wildlife and nature",
+        "The Indigenous peoples of Canada",
+        "The history of Canadian transportation",
+        "Canada's Arctic exploration"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is the significance of Canada’s national tartan?",
+      "options": [
+        "It symbolizes Canada’s Scottish heritage.",
+        "It represents Canada’s trade history.",
+        "It is used exclusively by the Governor General.",
+        "It commemorates Canada’s Confederation."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is the national tree of Canada?",
+      "options": ["The oak", "The pine", "The maple", "The birch"],
+      "answer": 2
+    },
+    {
+      "id": 22,
+      "question": "Which Canadian symbol is featured on the two-dollar coin?",
+      "options": ["A loon", "A polar bear", "A beaver", "A maple leaf"],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is the significance of the maple syrup industry in Canadian culture?",
+      "options": [
+        "It represents Canada’s culinary traditions and natural resources.",
+        "It is a key component of Canada’s coat of arms.",
+        "It symbolizes the friendship between Canada and France.",
+        "It is the main source of Canada’s economy."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 24,
+      "question": "What does the color red in the Canadian flag represent?",
+      "options": [
+        "The autumn leaves of Canada’s forests",
+        "The sacrifice of Canadian soldiers in wartime",
+        "The Indigenous peoples of Canada",
+        "The relationship between Canada and the United States"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is the significance of Victoria Day in Canada?",
+      "options": [
+        "It celebrates the birthday of Queen Victoria, symbolizing Canada’s ties to the monarchy.",
+        "It commemorates the signing of the British North America Act.",
+        "It honors Canada’s Indigenous heritage.",
+        "It celebrates the adoption of Canada’s national flag."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is the primary focus of National Indigenous Peoples Day in Canada?",
+      "options": [
+        "To recognize and celebrate the culture and contributions of Indigenous peoples in Canada",
+        "To commemorate the arrival of European settlers",
+        "To celebrate Canadian independence",
+        "To honor the signing of treaties"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is the historical significance of the Hudson’s Bay Company in Canadian symbolism?",
+      "options": [
+        "It is represented in the Canadian flag.",
+        "It symbolizes Canada’s fur trade heritage.",
+        "It was the first entity to use the maple leaf symbol.",
+        "It established Canada’s military traditions."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "question": "Which Canadian symbol is often associated with winter and the Arctic?",
+      "options": ["The polar bear", "The loon", "The beaver", "The maple tree"],
+      "answer": 0
+    },
+    {
+      "id": 29,
+      "question": "What role does the Canadian Broadcasting Corporation (CBC) play as a national symbol?",
+      "options": [
+        "It represents Canada’s wildlife.",
+        "It symbolizes Canada’s cultural heritage and unity through media.",
+        "It commemorates Canadian military history.",
+        "It is used to broadcast royal events."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "question": "What is the historical significance of the Canadian Pacific Railway as a national symbol?",
+      "options": [
+        "It symbolizes Canada’s expansion and connection from coast to coast.",
+        "It was the first Canadian business to use the maple leaf symbol.",
+        "It represents Canada’s ties to the monarchy.",
+        "It was the inspiration for the Canadian flag design."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is the meaning of the crown in the Canadian Coat of Arms?",
+      "options": [
+        "It symbolizes Canada’s independence.",
+        "It represents Canada’s connection to the British monarchy.",
+        "It signifies Canadian military strength.",
+        "It commemorates the creation of the Charter of Rights and Freedoms."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "question": "What Canadian symbol is known as \"The Rock\"?",
+      "options": [
+        "Parliament Hill",
+        "Niagara Falls",
+        "Newfoundland",
+        "Hudson Bay"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 33,
+      "question": "What does the red poppy symbolize in Canada?",
+      "options": [
+        "The autumn season",
+        "Remembrance of soldiers who died in wars",
+        "Canada’s commitment to peacekeeping",
+        "The signing of peace treaties"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "question": "What role does the Bluenose schooner play in Canadian symbolism?",
+      "options": [
+        "It represents Canada’s maritime history and pride.",
+        "It symbolizes the fur trade.",
+        "It is a feature on Canada’s flag.",
+        "It commemorates Canadian veterans."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is the historical significance of Inuksuk in Canadian culture?",
+      "options": [
+        "It represents navigation and guidance by Indigenous peoples in the Arctic.",
+        "It symbolizes Canada’s political unity.",
+        "It is a marker for provincial boundaries.",
+        "It represents the British settlement in Canada."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 36,
+      "question": "What does the Canadian $5 bill feature as a symbol of innovation?",
+      "options": [
+        "The Canadarm",
+        "The Hudson’s Bay Company logo",
+        "The Canadian Pacific Railway",
+        "A polar bear"
+      ],
+      "answer": 0
+    }
+  ],
+  "canadas-economy": [
+    {
+      "id": 1,
+      "question": "What are the three largest sectors of Canada’s economy?",
+      "options": [
+        "Agriculture, mining, and telecommunications",
+        "Natural resources, manufacturing, and services",
+        "Technology, education, and finance",
+        "Healthcare, defense, and construction"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is Canada’s largest trading partner?",
+      "options": ["China", "Mexico", "The United States", "The United Kingdom"],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "question": "What natural resource is Canada a leading exporter of?",
+      "options": ["Gold", "Oil and gas", "Coal", "Silver"],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is the role of the service sector in Canada’s economy?",
+      "options": [
+        "It is the smallest contributor to the economy.",
+        "It accounts for more than 70% of Canada’s GDP and includes industries like retail, healthcare, and finance.",
+        "It focuses on manufacturing goods for export.",
+        "It is primarily based on agriculture."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is Canada’s national currency?",
+      "options": [
+        "The US Dollar",
+        "The Canadian Dollar",
+        "The British Pound",
+        "The Euro"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is the significance of the North American Free Trade Agreement (NAFTA) to Canada?",
+      "options": [
+        "It established free trade between Canada, the United States, and Mexico.",
+        "It created Canada’s healthcare system.",
+        "It introduced the Canadian dollar.",
+        "It eliminated all taxes in Canada."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is Canada’s primary agricultural export?",
+      "options": ["Rice", "Wheat", "Coffee", "Bananas"],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "What region of Canada is known for its oil and gas production?",
+      "options": [
+        "The Atlantic Provinces",
+        "The Prairies",
+        "Central Canada",
+        "The Northern Territories"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "Which province is the largest producer of hydroelectric power in Canada?",
+      "options": ["British Columbia", "Ontario", "Quebec", "Alberta"],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "question": "What is the significance of forestry in Canada’s economy?",
+      "options": [
+        "It is Canada’s largest export industry.",
+        "It employs thousands of Canadians and is a major export, especially in British Columbia.",
+        "It is primarily focused on local use and not exported.",
+        "It has been entirely replaced by renewable energy."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is Canada’s primary export destination for manufactured goods?",
+      "options": ["China", "The United States", "Mexico", "Germany"],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is the significance of the automotive industry in Canada?",
+      "options": [
+        "It is Canada’s smallest manufacturing sector.",
+        "It is a major contributor to exports, particularly in Ontario.",
+        "It is primarily focused on electric vehicles.",
+        "It has been outsourced to other countries."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "question": "What role does tourism play in Canada’s economy?",
+      "options": [
+        "It is a minor contributor to the economy.",
+        "It generates billions of dollars annually and employs many Canadians.",
+        "It is exclusively focused on winter sports.",
+        "It is limited to the Atlantic provinces."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is the economic significance of Canada’s Northern Territories?",
+      "options": [
+        "They are primarily residential and contribute little to the economy.",
+        "They are rich in natural resources, including minerals and energy.",
+        "They are major centers for manufacturing.",
+        "They are focused on agriculture."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is the Bank of Canada’s role in Canada’s economy?",
+      "options": [
+        "To provide loans to businesses",
+        "To manage Canada’s currency and monetary policy",
+        "To regulate international trade agreements",
+        "To oversee provincial budgets"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is the importance of fishing in Canada’s economy?",
+      "options": [
+        "It is a minor industry limited to small lakes.",
+        "It is a significant industry, especially in the Atlantic provinces and British Columbia.",
+        "It has been replaced entirely by aquaculture.",
+        "It is focused exclusively on exports to Asia."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "question": "What resource is Canada the largest global producer of?",
+      "options": ["Diamonds", "Maple syrup", "Potash", "Copper"],
+      "answer": 2
+    },
+    {
+      "id": 18,
+      "question": "What is the significance of Canada’s trade agreements?",
+      "options": [
+        "They limit exports to the United States only.",
+        "They promote free trade and economic growth with multiple countries worldwide.",
+        "They focus on banning imports from Asia.",
+        "They prioritize manufacturing over natural resources."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is the primary focus of the Canadian energy sector?",
+      "options": [
+        "Producing renewable energy exclusively",
+        "Exporting natural resources such as oil, gas, and hydroelectric power",
+        "Manufacturing electric vehicles",
+        "Providing energy for domestic use only"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is Canada’s largest service industry?",
+      "options": ["Retail", "Tourism", "Healthcare", "Finance"],
+      "answer": 3
+    },
+    {
+      "id": 21,
+      "question": "Which Canadian city is considered the financial capital of the country?",
+      "options": ["Vancouver", "Montreal", "Toronto", "Calgary"],
+      "answer": 2
+    },
+    {
+      "id": 22,
+      "question": "What is the importance of Canada’s tech industry in its economy?",
+      "options": [
+        "It is Canada’s primary export industry.",
+        "It has grown significantly and includes innovations in AI, software development, and biotech.",
+        "It is limited to manufacturing hardware.",
+        "It is focused on exports to the United States only."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is the significance of the aerospace industry in Canada?",
+      "options": [
+        "It is a minor industry focused on local markets.",
+        "It is a global leader in aircraft and spacecraft manufacturing, especially in Quebec.",
+        "It is focused on military applications exclusively.",
+        "It is the largest employer in British Columbia."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is Canada’s role in the global mining industry?",
+      "options": [
+        "Canada is a leading exporter of minerals such as gold, copper, and uranium.",
+        "Canada imports most of its minerals from other countries.",
+        "Canada focuses on local consumption of mined resources.",
+        "Canada is not a significant player in the mining industry."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 25,
+      "question": "What Canadian city is known for its contribution to the oil and gas industry?",
+      "options": ["Toronto", "Calgary", "Halifax", "Winnipeg"],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is the role of the forestry sector in Canada’s economy?",
+      "options": [
+        "It is a declining industry with little economic significance.",
+        "It remains an important sector for exports and employment, particularly in British Columbia.",
+        "It is primarily focused on reforestation programs.",
+        "It is limited to local markets in Ontario."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "question": "What role does agriculture play in Canada’s economy?",
+      "options": [
+        "It is limited to subsistence farming.",
+        "It contributes significantly through exports of wheat, canola, and other crops.",
+        "It is the largest sector of the economy.",
+        "It focuses solely on domestic consumption."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "question": "Which province is known as the \"breadbasket of Canada\" for its agricultural production?",
+      "options": ["British Columbia", "Saskatchewan", "Quebec", "Ontario"],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "question": "What is the primary export product of Canada’s Atlantic provinces?",
+      "options": [
+        "Fisheries and seafood products",
+        "Timber",
+        "Oil and gas",
+        "Automobiles"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is the significance of the Canadian energy sector’s renewable energy production?",
+      "options": [
+        "Canada relies entirely on fossil fuels.",
+        "Canada is one of the world’s largest producers of hydroelectric power.",
+        "Renewable energy is not a focus in Canada’s economy.",
+        "Canada’s energy sector is exclusively focused on nuclear energy."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "question": "What role does the Canadian government play in supporting economic growth?",
+      "options": [
+        "It avoids involvement in the economy.",
+        "It implements policies and trade agreements to support industries and encourage innovation.",
+        "It focuses only on regulating large corporations.",
+        "It directly controls all major industries."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "question": "What is the importance of Canada’s membership in the G7?",
+      "options": [
+        "It represents Canada’s focus on agriculture.",
+        "It highlights Canada’s status as one of the world’s largest economies.",
+        "It limits Canada’s trade with non-G7 countries.",
+        "It prioritizes Canadian exports over domestic needs."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "question": "What is the role of the fishing industry in Canada’s Arctic region?",
+      "options": [
+        "It is the largest source of employment in the region.",
+        "It focuses on sustainable practices and supports Indigenous communities.",
+        "It has been entirely replaced by aquaculture.",
+        "It is no longer active in the Arctic."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "question": "Which Canadian province is a global leader in technology and innovation?",
+      "options": ["British Columbia", "Ontario", "Alberta", "Manitoba"],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is the significance of Canada’s film and television industry?",
+      "options": [
+        "It is focused solely on local productions.",
+        "It is a growing sector known for contributions to Hollywood and international markets.",
+        "It is limited to educational programming.",
+        "It has minimal economic impact."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is the role of tourism in Canada’s economy?",
+      "options": [
+        "It generates significant revenue and promotes Canada’s cultural and natural attractions.",
+        "It is limited to domestic tourists.",
+        "It focuses on winter sports exclusively.",
+        "It is the smallest contributor to GDP."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 37,
+      "question": "Which Canadian region is the largest producer of wine?",
+      "options": ["British Columbia", "Ontario", "Quebec", "Nova Scotia"],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is the economic importance of the St. Lawrence Seaway?",
+      "options": [
+        "It is a major trade route that connects the Atlantic Ocean to the Great Lakes.",
+        "It is primarily used for recreational boating.",
+        "It is a protected environmental area with no economic role.",
+        "It is an exclusive transportation route for oil and gas."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 39,
+      "question": "What Canadian city is known as a hub for video game development?",
+      "options": ["Toronto", "Montreal", "Vancouver", "Halifax"],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is Canada’s role in the global clean energy market?",
+      "options": [
+        "It focuses exclusively on exporting fossil fuels.",
+        "It is a leader in hydroelectric power and renewable energy technologies.",
+        "It relies on imports for renewable energy.",
+        "It has minimal involvement in clean energy production."
+      ],
+      "answer": 1
+    }
+  ],
+  "canadas-regions": [
+    {
+      "id": 1,
+      "question": "How many regions is Canada traditionally divided into?",
+      "options": ["Three", "Four", "Five", "Six"],
+      "answer": 2
+    },
+    {
+      "id": 2,
+      "question": "Which provinces make up the Atlantic region?",
+      "options": [
+        "Newfoundland and Labrador, Prince Edward Island, Nova Scotia, New Brunswick",
+        "Quebec, Ontario, Nova Scotia, New Brunswick",
+        "Newfoundland and Labrador, Quebec, Prince Edward Island, Nova Scotia",
+        "New Brunswick, Nova Scotia, Ontario, Prince Edward Island"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is the largest industry in the Atlantic region?",
+      "options": ["Manufacturing", "Fishing", "Technology", "Automotive"],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is Canada’s most populous region?",
+      "options": [
+        "The Atlantic provinces",
+        "The Prairie provinces",
+        "Central Canada",
+        "The West Coast"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "question": "Which provinces are part of Central Canada?",
+      "options": [
+        "Quebec and Ontario",
+        "Ontario and Manitoba",
+        "Quebec and Nova Scotia",
+        "Ontario and British Columbia"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is the primary language spoken in Quebec?",
+      "options": ["English", "French", "Spanish", "Inuktitut"],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "Which province is known as Canada’s financial hub?",
+      "options": ["Quebec", "British Columbia", "Ontario", "Alberta"],
+      "answer": 2
+    },
+    {
+      "id": 8,
+      "question": "Which provinces make up the Prairie region?",
+      "options": [
+        "Ontario, Manitoba, Saskatchewan",
+        "Saskatchewan, Manitoba, Alberta",
+        "Alberta, British Columbia, Manitoba",
+        "Manitoba, Ontario, Saskatchewan"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is the main industry in the Prairie provinces?",
+      "options": [
+        "Forestry",
+        "Farming and natural resources",
+        "Tourism",
+        "Technology"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "question": "Which province is the largest producer of oil in Canada?",
+      "options": ["Ontario", "Alberta", "Saskatchewan", "Quebec"],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is the nickname for the province of Saskatchewan?",
+      "options": [
+        "The Keystone Province",
+        "The Breadbasket of Canada",
+        "The Great White North",
+        "The Maritime Province"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "Which province is part of Canada’s West Coast region?",
+      "options": ["British Columbia", "Manitoba", "Alberta", "Newfoundland"],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is the largest city in British Columbia?",
+      "options": ["Victoria", "Kelowna", "Vancouver", "Richmond"],
+      "answer": 2
+    },
+    {
+      "id": 14,
+      "question": "What natural feature is British Columbia famous for?",
+      "options": ["Prairies", "Rocky Mountains", "Tundra", "Lakes"],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is the main economic activity in the West Coast region?",
+      "options": [
+        "Technology",
+        "Farming",
+        "Forestry, fishing, and tourism",
+        "Mining"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 16,
+      "question": "Which territories make up Canada’s Northern region?",
+      "options": [
+        "Yukon, Northwest Territories, Nunavut",
+        "Yukon, British Columbia, Alberta",
+        "Nunavut, Manitoba, Saskatchewan",
+        "Northwest Territories, Quebec, Yukon"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is the predominant climate in Canada’s Northern region?",
+      "options": ["Tropical", "Arctic", "Temperate", "Desert"],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is the main economic activity in Canada’s Northern territories?",
+      "options": [
+        "Farming",
+        "Mining and resource extraction",
+        "Technology",
+        "Fishing"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is the largest city in the Prairie region?",
+      "options": ["Winnipeg", "Calgary", "Edmonton", "Saskatoon"],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "What region of Canada is known for its rich fishing industry?",
+      "options": [
+        "Central Canada",
+        "Atlantic Canada",
+        "The Northern Territories",
+        "The Prairie Provinces"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "question": "Which region of Canada is known for its multicultural population and major urban centers?",
+      "options": [
+        "Central Canada",
+        "The West Coast",
+        "The Atlantic Provinces",
+        "The Prairie Provinces"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 22,
+      "question": "What region of Canada is the main producer of potash?",
+      "options": [
+        "The Northern Territories",
+        "The Prairie Provinces",
+        "Central Canada",
+        "The West Coast"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "Which region of Canada has the most temperate climate?",
+      "options": [
+        "The Atlantic Provinces",
+        "The West Coast",
+        "The Prairie Provinces",
+        "The Northern Territories"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is the primary industry in Yukon?",
+      "options": [
+        "Farming",
+        "Mining and resource extraction",
+        "Technology",
+        "Fishing"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is the official language of Nunavut?",
+      "options": ["English", "French", "Inuktitut", "Cree"],
+      "answer": 2
+    },
+    {
+      "id": 26,
+      "question": "Which region of Canada is home to the Rocky Mountains?",
+      "options": [
+        "The Northern Territories",
+        "The West Coast",
+        "The Prairie Provinces",
+        "Atlantic Canada"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is the capital city of the Northwest Territories?",
+      "options": ["Whitehorse", "Iqaluit", "Yellowknife", "Inuvik"],
+      "answer": 2
+    },
+    {
+      "id": 28,
+      "question": "Which Canadian region has a significant French-speaking population?",
+      "options": [
+        "Central Canada",
+        "The Northern Territories",
+        "The West Coast",
+        "Atlantic Canada"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is the capital city of Nova Scotia?",
+      "options": ["Halifax", "Fredericton", "Charlottetown", "St. John’s"],
+      "answer": 0
+    },
+    {
+      "id": 30,
+      "question": "Which Canadian region is known for its extensive boreal forests?",
+      "options": [
+        "The Prairie Provinces",
+        "Central Canada",
+        "The Northern Territories",
+        "The West Coast"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 31,
+      "question": "What is the main economic activity in Prince Edward Island?",
+      "options": [
+        "Oil and gas",
+        "Farming, especially potatoes, and fishing",
+        "Mining",
+        "Technology"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "question": "What is the nickname of Toronto, Ontario?",
+      "options": [
+        "The Big Apple",
+        "The Gateway City",
+        "The 6ix",
+        "The Harbor City"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 33,
+      "question": "Which region of Canada is the primary producer of maple syrup?",
+      "options": [
+        "The Northern Territories",
+        "The West Coast",
+        "Central Canada",
+        "The Prairie Provinces"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 34,
+      "question": "What is the most populated city in Canada?",
+      "options": ["Vancouver", "Toronto", "Montreal", "Calgary"],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "question": "Which region of Canada is known for its seafood exports?",
+      "options": [
+        "Atlantic Canada",
+        "The West Coast",
+        "Central Canada",
+        "The Prairie Provinces"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is the main language spoken in British Columbia?",
+      "options": ["French", "English", "Cree", "Inuktitut"],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "question": "Which province is known for the Bay of Fundy, famous for its high tides?",
+      "options": [
+        "Nova Scotia",
+        "Prince Edward Island",
+        "New Brunswick",
+        "Newfoundland and Labrador"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 38,
+      "question": "Which Canadian city is nicknamed the 'City of Festivals'?",
+      "options": ["Toronto", "Montreal", "Quebec City", "Ottawa"],
+      "answer": 1
+    },
+    {
+      "id": 39,
+      "question": "What is the capital city of Alberta?",
+      "options": ["Calgary", "Red Deer", "Edmonton", "Lethbridge"],
+      "answer": 2
+    },
+    {
+      "id": 40,
+      "question": "What is the largest lake entirely in Canada?",
+      "options": [
+        "Lake Ontario",
+        "Lake Superior",
+        "Great Bear Lake",
+        "Lake Erie"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 41,
+      "question": "What is the primary industry in Newfoundland and Labrador?",
+      "options": [
+        "Fishing and offshore oil extraction",
+        "Technology",
+        "Agriculture",
+        "Forestry"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 42,
+      "question": "Which province is home to Niagara Falls?",
+      "options": ["Quebec", "Ontario", "Nova Scotia", "British Columbia"],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "question": "What is the largest city in the Atlantic region?",
+      "options": ["Halifax", "St. John’s", "Fredericton", "Charlottetown"],
+      "answer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is the capital city of Manitoba?",
+      "options": ["Calgary", "Winnipeg", "Edmonton", "Regina"],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "question": "What is the primary economic activity in the Yukon?",
+      "options": ["Tourism", "Mining", "Fishing", "Agriculture"],
+      "answer": 1
+    },
+    {
+      "id": 46,
+      "question": "Which province is bordered by the Pacific Ocean?",
+      "options": ["Ontario", "Quebec", "British Columbia", "Alberta"],
+      "answer": 2
+    },
+    {
+      "id": 47,
+      "question": "What is the smallest province in Canada by land area?",
+      "options": [
+        "Prince Edward Island",
+        "New Brunswick",
+        "Nova Scotia",
+        "Newfoundland and Labrador"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is the main export from Alberta?",
+      "options": ["Technology", "Potatoes", "Oil and gas", "Seafood"],
+      "answer": 2
+    },
+    {
+      "id": 49,
+      "question": "What region is known as Canada’s breadbasket?",
+      "options": [
+        "Central Canada",
+        "The Prairie Provinces",
+        "The Northern Territories",
+        "The Atlantic Provinces"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "question": "What is the primary language spoken in Nunavut?",
+      "options": ["Inuktitut", "French", "English", "Cree"],
+      "answer": 0
+    },
+    {
+      "id": 51,
+      "question": "What Canadian region is home to the Great Lakes?",
+      "options": [
+        "The West Coast",
+        "Central Canada",
+        "The Prairie Provinces",
+        "The Atlantic Provinces"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 52,
+      "question": "Which province is famous for its lobster industry?",
+      "options": [
+        "Newfoundland and Labrador",
+        "Prince Edward Island",
+        "Quebec",
+        "Ontario"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 53,
+      "question": "What natural feature dominates the landscape of the Northern Territories?",
+      "options": ["Prairies", "Tundra", "Mountain ranges", "Forests"],
+      "answer": 1
+    },
+    {
+      "id": 54,
+      "question": "Which province is home to the city of Montreal?",
+      "options": ["Ontario", "Quebec", "Nova Scotia", "British Columbia"],
+      "answer": 1
+    },
+    {
+      "id": 55,
+      "question": "What is the population of the Northern Territories like compared to other regions?",
+      "options": [
+        "It is the most densely populated region in Canada.",
+        "It has a very sparse population.",
+        "It is as densely populated as Central Canada.",
+        "It has no permanent residents."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 56,
+      "question": "What Canadian region is known for its vast prairies and flat landscapes?",
+      "options": [
+        "The Atlantic Provinces",
+        "Central Canada",
+        "The Prairie Provinces",
+        "The Northern Territories"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 57,
+      "question": "What is the primary economic activity in British Columbia?",
+      "options": ["Forestry and fishing", "Technology", "Farming", "Mining"],
+      "answer": 0
+    },
+    {
+      "id": 58,
+      "question": "Which province is home to the capital city of Canada?",
+      "options": ["Quebec", "Ontario", "Nova Scotia", "Alberta"],
+      "answer": 1
+    },
+    {
+      "id": 59,
+      "question": "What is the most common type of vegetation in the Prairie Provinces?",
+      "options": ["Boreal forest", "Grasslands", "Tundra", "Rainforest"],
+      "answer": 1
+    },
+    {
+      "id": 60,
+      "question": "Which region is known for the Rocky Mountains?",
+      "options": [
+        "The Atlantic Provinces",
+        "Central Canada",
+        "The Northern Territories",
+        "The West Coast"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 61,
+      "question": "What is the largest lake in Canada’s Northern Territories?",
+      "options": [
+        "Lake Ontario",
+        "Great Bear Lake",
+        "Lake Superior",
+        "Lake Winnipeg"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 62,
+      "question": "What is the capital city of Prince Edward Island?",
+      "options": ["Fredericton", "Halifax", "Charlottetown", "St. John’s"],
+      "answer": 2
+    },
+    {
+      "id": 63,
+      "question": "Which province is known for the Bay of Fundy and its high tides?",
+      "options": [
+        "New Brunswick",
+        "Nova Scotia",
+        "Prince Edward Island",
+        "Quebec"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 64,
+      "question": "Which province is the largest by land area in Canada?",
+      "options": ["Quebec", "Ontario", "Alberta", "British Columbia"],
+      "answer": 0
+    },
+    {
+      "id": 65,
+      "question": "What is the capital city of Quebec?",
+      "options": ["Montreal", "Quebec City", "Ottawa", "Trois-Rivières"],
+      "answer": 1
+    },
+    {
+      "id": 66,
+      "question": "Which region of Canada is famous for its ice roads in winter?",
+      "options": [
+        "The Prairie Provinces",
+        "The Atlantic Provinces",
+        "The Northern Territories",
+        "The West Coast"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 67,
+      "question": "What is the capital city of New Brunswick?",
+      "options": ["Halifax", "Charlottetown", "Fredericton", "Moncton"],
+      "answer": 2
+    },
+    {
+      "id": 68,
+      "question": "Which region of Canada is the smallest in terms of population?",
+      "options": [
+        "The Atlantic Provinces",
+        "The Prairie Provinces",
+        "The Northern Territories",
+        "The West Coast"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 69,
+      "question": "Which region is known for its vibrant Indigenous cultures and communities?",
+      "options": [
+        "The Northern Territories",
+        "Central Canada",
+        "The Prairie Provinces",
+        "The West Coast"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 70,
+      "question": "What is the most mountainous region of Canada?",
+      "options": [
+        "The Atlantic Provinces",
+        "Central Canada",
+        "The Northern Territories",
+        "The West Coast"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 71,
+      "question": "Which province is nicknamed the 'Land of 100,000 Lakes'?",
+      "options": ["Manitoba", "Ontario", "Quebec", "British Columbia"],
+      "answer": 0
+    },
+    {
+      "id": 72,
+      "question": "Which region is home to Canada’s largest island, Baffin Island?",
+      "options": [
+        "The Atlantic Provinces",
+        "Central Canada",
+        "The Northern Territories",
+        "The West Coast"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 73,
+      "question": "What is the primary industry in Nova Scotia?",
+      "options": [
+        "Oil and gas",
+        "Fisheries and shipbuilding",
+        "Forestry",
+        "Agriculture"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 74,
+      "question": "What is the primary industry in Northwest Territories?",
+      "options": ["Diamond mining", "Tourism", "Agriculture", "Forestry"],
+      "answer": 0
+    },
+    {
+      "id": 75,
+      "question": "What region of Canada is known for its Pacific Salmon industry?",
+      "options": [
+        "The Atlantic Provinces",
+        "The West Coast",
+        "The Prairie Provinces",
+        "The Northern Territories"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 76,
+      "question": "What province is home to the Okanagan Valley, famous for its wine industry?",
+      "options": ["Alberta", "Ontario", "Quebec", "British Columbia"],
+      "answer": 3
+    },
+    {
+      "id": 77,
+      "question": "Which province is home to the CN Tower?",
+      "options": ["Quebec", "Ontario", "British Columbia", "Alberta"],
+      "answer": 1
+    },
+    {
+      "id": 78,
+      "question": "What is the official language of New Brunswick?",
+      "options": ["French", "English", "Both French and English", "Cree"],
+      "answer": 2
+    },
+    {
+      "id": 79,
+      "question": "What is the capital city of Yukon?",
+      "options": ["Whitehorse", "Yellowknife", "Iqaluit", "Dawson City"],
+      "answer": 0
+    },
+    {
+      "id": 80,
+      "question": "Which Canadian region is most associated with the Arctic tundra?",
+      "options": [
+        "The Prairie Provinces",
+        "The Northern Territories",
+        "The West Coast",
+        "Atlantic Canada"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 81,
+      "question": "Which province is known for the Cabot Trail, a famous scenic drive?",
+      "options": [
+        "Prince Edward Island",
+        "Nova Scotia",
+        "New Brunswick",
+        "Quebec"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 82,
+      "question": "Which Canadian province has the highest population density?",
+      "options": [
+        "Ontario",
+        "Prince Edward Island",
+        "Quebec",
+        "British Columbia"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 83,
+      "question": "What is the primary resource extracted in the Athabasca Oil Sands in Alberta?",
+      "options": ["Natural gas", "Oil", "Coal", "Diamonds"],
+      "answer": 1
+    },
+    {
+      "id": 84,
+      "question": "Which region of Canada is known for its cultural and linguistic diversity?",
+      "options": [
+        "Central Canada",
+        "The Northern Territories",
+        "The West Coast",
+        "The Prairie Provinces"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 85,
+      "question": "What is the capital city of Saskatchewan?",
+      "options": ["Edmonton", "Saskatoon", "Regina", "Winnipeg"],
+      "answer": 2
+    },
+    {
+      "id": 86,
+      "question": "What natural landmark separates British Columbia and Alberta?",
+      "options": [
+        "The Rocky Mountains",
+        "The Great Lakes",
+        "The St. Lawrence River",
+        "Hudson Bay"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 87,
+      "question": "What is the primary economic activity in Manitoba?",
+      "options": [
+        "Fishing",
+        "Agriculture and manufacturing",
+        "Mining",
+        "Tourism"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 88,
+      "question": "Which region of Canada is known for its long coastline and maritime culture?",
+      "options": [
+        "Central Canada",
+        "The Atlantic Provinces",
+        "The Prairie Provinces",
+        "The Northern Territories"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 89,
+      "question": "Which Canadian region has the most diverse Indigenous populations?",
+      "options": [
+        "The Atlantic Provinces",
+        "The Northern Territories",
+        "The Prairie Provinces",
+        "The West Coast"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 90,
+      "question": "Which Canadian province is home to the iconic Chateau Frontenac hotel?",
+      "options": ["Ontario", "Quebec", "British Columbia", "Nova Scotia"],
+      "answer": 1
+    },
+    {
+      "id": 91,
+      "question": "What is the main waterway used for shipping in Central Canada?",
+      "options": [
+        "The Fraser River",
+        "The St. Lawrence Seaway",
+        "Hudson Bay",
+        "The Athabasca River"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 92,
+      "question": "Which province is known for the Jasper and Banff National Parks?",
+      "options": ["British Columbia", "Alberta", "Manitoba", "Quebec"],
+      "answer": 1
+    },
+    {
+      "id": 93,
+      "question": "Which territory is the largest in Canada by land area?",
+      "options": [
+        "Yukon",
+        "Northwest Territories",
+        "Nunavut",
+        "British Columbia"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 94,
+      "question": "What is the main agricultural product of Prince Edward Island?",
+      "options": ["Corn", "Potatoes", "Wheat", "Rice"],
+      "answer": 1
+    },
+    {
+      "id": 95,
+      "question": "What is the largest urban area in Quebec?",
+      "options": ["Quebec City", "Montreal", "Sherbrooke", "Trois-Rivières"],
+      "answer": 1
+    },
+    {
+      "id": 96,
+      "question": "Which province is the largest producer of electricity in Canada?",
+      "options": ["Ontario", "Quebec", "Alberta", "British Columbia"],
+      "answer": 1
+    },
+    {
+      "id": 97,
+      "question": "What is a major economic activity in Nunavut?",
+      "options": [
+        "Farming",
+        "Tourism and mining",
+        "Automotive manufacturing",
+        "Fishing"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 98,
+      "question": "Which province is home to the Rideau Canal, a UNESCO World Heritage Site?",
+      "options": ["Quebec", "Ontario", "Nova Scotia", "British Columbia"],
+      "answer": 1
+    },
+    {
+      "id": 99,
+      "question": "What Canadian province is known for its Great Bear Rainforest?",
+      "options": ["Quebec", "Ontario", "British Columbia", "Alberta"],
+      "answer": 2
+    },
+    {
+      "id": 100,
+      "question": "Which region of Canada has the highest concentration of fresh water in the world?",
+      "options": [
+        "The Northern Territories",
+        "Central Canada",
+        "The West Coast",
+        "The Prairie Provinces"
+      ],
+      "answer": 1
+    }
+  ]
 }
