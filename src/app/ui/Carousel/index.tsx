@@ -1,6 +1,12 @@
 "use client";
 import React, { useState, useEffect, useCallback } from "react";
-import { CtaMode, getCtaText, getMessageColor, MessageType } from "./util";
+import {
+  CtaMode,
+  getCtaText,
+  getOptionColor,
+  getStatusColor,
+  MessageType,
+} from "./util";
 import { useRouter } from "next/navigation";
 
 // Define types for the question structure
@@ -53,17 +59,23 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
     }
     if (selectedOption === currentQuestion.answer) {
       setMessage({ text: "Correct Answer!", status: "success" });
-      if (currentQuestionIndex < questions.length - 1) {
-        setCtaMode("next");
-      } else {
-        setCtaMode("back");
-      }
-      return;
+    } else {
+      setMessage({
+        text: `Correct answer: ${
+          currentQuestion.options[currentQuestion.answer]
+        }`,
+        status: "error",
+      });
     }
-    setMessage({ text: "Incorrect Answer!", status: "error" });
+    if (currentQuestionIndex < questions.length - 1) {
+      setCtaMode("next");
+    } else {
+      setCtaMode("back");
+    }
   }, [
     selectedOption,
-    currentQuestion?.answer,
+    currentQuestion.answer,
+    currentQuestion.options,
     currentQuestionIndex,
     questions.length,
   ]);
@@ -158,8 +170,10 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
           {currentQuestion.options.map((option, index) => (
             <label
               key={index}
-              className={`block h-16 cursor-pointer text-lg ${
-                selectedOption === index ? "text-blue-400" : "text-white"
+              className={`block py-4 cursor-pointer text-lg ${
+                selectedOption === index
+                  ? getOptionColor(message.status)
+                  : "text-white"
               }`}
             >
               <input
@@ -169,6 +183,7 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
                 checked={selectedOption === index}
                 onChange={() => handleOptionSelect(index)}
                 className="mr-2"
+                disabled={ctaMode !== "submit"}
               />
               {option}
             </label>
@@ -183,7 +198,7 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
           >
             {getCtaText(ctaMode)}
           </button>
-          <span className={`ml-5 ${getMessageColor(message.status)}`}>
+          <span className={`ml-5 ${getStatusColor(message.status)}`}>
             {message.text}
           </span>
         </div>
