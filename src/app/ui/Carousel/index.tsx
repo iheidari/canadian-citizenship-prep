@@ -8,6 +8,7 @@ import {
   MessageType,
 } from "./util";
 import { useRouter } from "next/navigation";
+import Progressbar from "../Progressbar";
 
 // Define types for the question structure
 type Question = {
@@ -145,75 +146,80 @@ const Carousel: React.FC<CarouselProps> = ({ questions }) => {
   }
 
   return (
-    <div className="w-full flex flex-row gap-3 justify-center items-center text-white">
-      <div className="h-40 w-16">
-        {currentQuestionIndex === 0 ? null : (
-          <button
-            id="previous"
-            onClick={handlePrevious}
-            className="h-full w-full text-4xl font-bold text-white hover:bg-slate-700"
-            disabled={currentQuestionIndex === 0}
-          >
-            &lt;
-          </button>
-        )}
-      </div>
-
-      <div className="w-full">
-        {/* Question */}
-        <h2 className="text-2xl font-bold mt-6 mb-10 h-16">
-          {currentQuestion.question}
-        </h2>
-
-        {/* Options */}
-        <div className="mb-8">
-          {currentQuestion.options.map((option, index) => (
-            <label
-              key={index}
-              className={`block py-4 cursor-pointer text-lg ${
-                selectedOption === index
-                  ? getOptionColor(message.status)
-                  : "text-white"
-              }`}
+    <div>
+      <Progressbar
+        value={((currentQuestionIndex + 1) / questions.length) * 100}
+      />
+      <div className="w-full flex flex-row gap-3 justify-center items-center text-white">
+        <div className="h-40 w-16">
+          {currentQuestionIndex === 0 ? null : (
+            <button
+              id="previous"
+              onClick={handlePrevious}
+              className="h-full w-full text-4xl font-bold text-white hover:bg-slate-700"
+              disabled={currentQuestionIndex === 0}
             >
-              <input
-                type="radio"
-                name="option"
-                value={index}
-                checked={selectedOption === index}
-                onChange={() => handleOptionSelect(index)}
-                className="mr-2"
-                disabled={ctaMode !== "submit"}
-              />
-              {option}
-            </label>
-          ))}
+              &lt;
+            </button>
+          )}
         </div>
 
-        {/* Submit and Show Answer Buttons */}
-        <div className="flex my-4 items-center">
-          <button
-            onClick={handleCtaClick}
-            className="px-6 py-2 w-40 bg-blue-700 text-white rounded hover:bg-blue-900"
-          >
-            {getCtaText(ctaMode)}
-          </button>
-          <span className={`ml-5 ${getStatusColor(message.status)}`}>
-            {message.text}
-          </span>
+        <div className="w-full">
+          {/* Question */}
+          <h2 className="text-2xl font-bold mt-6 mb-10 h-16">
+            {currentQuestion.question}
+          </h2>
+
+          {/* Options */}
+          <div className="mb-8">
+            {currentQuestion.options.map((option, index) => (
+              <label
+                key={index}
+                className={`block py-4 cursor-pointer text-lg ${
+                  selectedOption === index
+                    ? getOptionColor(message.status)
+                    : "text-white"
+                }`}
+              >
+                <input
+                  type="radio"
+                  name="option"
+                  value={index}
+                  checked={selectedOption === index}
+                  onChange={() => handleOptionSelect(index)}
+                  className="mr-2"
+                  disabled={ctaMode !== "submit"}
+                />
+                {option}
+              </label>
+            ))}
+          </div>
+
+          {/* Submit and Show Answer Buttons */}
+          <div className="flex my-4 items-center">
+            <button
+              onClick={handleCtaClick}
+              className="px-6 py-2 w-40 bg-blue-700 text-white rounded hover:bg-blue-900"
+            >
+              {getCtaText(ctaMode)}
+            </button>
+            <span className={`ml-5 ${getStatusColor(message.status)}`}>
+              {message.text}
+            </span>
+          </div>
         </div>
-      </div>
-      <div className="h-40 w-16">
-        {currentQuestionIndex === questions.length - 1 ? null : (
-          <button
-            id="next"
-            onClick={handleNext}
-            className="w-full h-full text-4xl font-bold text-white hover:bg-slate-700"
-            disabled={currentQuestionIndex === questions.length - 1}
-          >
-            &gt;
-          </button>
-        )}
+        <div className="h-40 w-16">
+          {currentQuestionIndex === questions.length - 1 ? null : (
+            <button
+              id="next"
+              onClick={handleNext}
+              className="w-full h-full text-4xl font-bold text-white hover:bg-slate-700"
+              disabled={currentQuestionIndex === questions.length - 1}
+            >
+              &gt;
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );
