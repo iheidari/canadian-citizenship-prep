@@ -1,10 +1,10 @@
 import React from "react";
 import { notFound } from "next/navigation";
 import { getCategories, getCategoryById } from "@/app/services/categories";
-import Carousel from "@/app/ui/Carousel";
 import { DataType, getQuestions } from "@/app/services/questions";
+import Test from "@/app/ui/Test";
 
-// fro  nextjs 15, params will pass as a promise
+// for nextjs 15, params will pass as a promise
 type Params = Promise<{ slug: string }>;
 
 interface IProps {
@@ -19,11 +19,7 @@ const page = async ({ params }: IProps) => {
     return notFound();
   }
 
-  return (
-    <div className="flex flex-col gap-4">
-      <Carousel questions={getQuestions(slug as keyof DataType)} />
-    </div>
-  );
+  return <Test questions={getQuestions(slug as keyof DataType)} />;
 };
 
 export const dynamicParams = false;
