@@ -28,7 +28,7 @@ const ActionsBar = (props: Props) => {
               <button
                 onClick={props.onSubmit}
                 disabled={!props.onSubmit}
-                className={`outline-none w-full md:w-auto border border-white border-b-4 rounded-xl h-[50px] px-4 flex justify-center items-center uppercase ${
+                className={`outline-none min-w-[150px] w-full md:w-auto border border-white border-b-4 rounded-xl h-[50px] px-4 flex justify-center items-center uppercase ${
                   !props.onSubmit
                     ? "bg-gray-500 cursor-not-allowed"
                     : "bg-transparent"

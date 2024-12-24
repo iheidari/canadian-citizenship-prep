@@ -13,7 +13,7 @@ const Answer = (props: Props) => {
     : "bg-red-500 border-red-500";
 
   return (
-    <div className="grid h-full w-full col-start-1 row-start-3 relative z-[110]">
+    <div className="grid h-full w-full col-start-1 row-start-3 relative z-[40]">
       <div className="col-start-1 row-start-1 min-h-0">
         <div className="absolute bottom-0 border-t-2 border-white max-h-[140px] min-h-[140px] overflow-hidden w-full">
           <div

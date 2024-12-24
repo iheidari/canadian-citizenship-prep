@@ -9,28 +9,25 @@ import Answer from "./Answer";
 import { useRouter } from "next/navigation";
 import { TestResult } from "@/app/services/db/types";
 import { saveTestResult } from "@/app/services/db";
+import ResultModal from "./ResultModal";
 
 interface Props {
   categoryId: string;
   questions: QuestionType[];
 }
 
-let testResult: TestResult = {
-  categoryId: "1",
-  result: [],
-  score: 0,
-  date: new Date(),
-};
+let testResult: TestResult;
 let startTime: number;
 let time: number;
 
 const Test = (props: Props) => {
   const router = useRouter();
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [progressValue, setProgressValue] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [result, setResult] = useState<string | null>(null);
-
-  const currentQuestion = props.questions[currentQuestionIndex];
+  const [showFinalResult, setShowFinalResult] = useState(false);
 
   useEffect(() => {
     testResult = {
@@ -38,6 +35,7 @@ const Test = (props: Props) => {
       result: [],
       score: 0,
       date: new Date(),
+      totalTimeMs: 0,
     };
     startTime = new Date().getTime();
     time = new Date().getTime();
@@ -48,12 +46,15 @@ const Test = (props: Props) => {
   };
 
   const handleSkip = () => {
+    const currentQuestion = props.questions[currentQuestionIndex];
     setResult(currentQuestion.options[currentQuestion.answer]);
   };
 
   const handleSubmit = () => {
+    const currentQuestion = props.questions[currentQuestionIndex];
     const currentTime = new Date().getTime();
     const timeDiff = currentTime - time;
+    setProgressValue((prev) => prev + 1);
     if (selectedOption === currentQuestion.answer) {
       testResult.result.push({
         questionId: currentQuestionIndex,
@@ -82,7 +83,7 @@ const Test = (props: Props) => {
       );
       testResult.totalTimeMs = new Date().getTime() - startTime;
       await saveTestResult(testResult);
-      router.back();
+      setShowFinalResult(true);
       return;
     }
     const currentTime = new Date().getTime();
@@ -100,14 +101,13 @@ const Test = (props: Props) => {
     >
       <div className="absolute inset-0">
         <div className="py-6 px-4 md:p-0 gap-0 grid grid-rows-[100px_1fr_140px] min-h-[690px] grid-cols-[100%] overflow-hidden absolute h-full w-full">
-          <Progressbar
-            value={(currentQuestionIndex / props.questions.length) * 100}
-          />
+          <Progressbar value={(progressValue / props.questions.length) * 100} />
           <Question
             question={props.questions[currentQuestionIndex]}
             selectedOption={selectedOption}
             onOptionChanged={handleOptionChanged}
           />
+
           {result === null ? (
             <ActionsBar
               onSkip={handleSkip}
@@ -116,6 +116,16 @@ const Test = (props: Props) => {
           ) : (
             <Answer onContinue={handleContinue} correctAnswer={result} />
           )}
+          {showFinalResult ? (
+            <ResultModal
+              onClose={() => router.back()}
+              // onReview={() =>
+              //   router.push(`/categories/${props.categoryId}?review=true`)
+              // }
+              score={testResult.score}
+              time={testResult.totalTimeMs}
+            />
+          ) : null}
         </div>
       </div>
     </div>
