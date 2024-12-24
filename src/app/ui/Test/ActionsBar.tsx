@@ -7,7 +7,7 @@ interface Props {
 
 const ActionsBar = (props: Props) => {
   return (
-    <div className="grid h-full w-full col-start-1 row-start-3 relative z-[110]">
+    <div className="grid h-full w-full col-start-1 row-start-3 relative z-40">
       <div className="col-start-1 row-start-1 min-h-0">
         <div className="absolute bottom-0 border-t-2 border-white max-h-[140px] min-h-[140px] overflow-hidden w-full">
           <div className="grid items-center grid-rows-[auto] grid-cols-5 justify-between gap-y-2 gap-x-4 min-h-[140px] px-10 w-full max-w-[1000px] relative touch-none lg:ml-[calc(50%-500px)]">
