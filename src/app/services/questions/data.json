@@ -32,6 +32,155 @@
         "You are automatically allowed to vote in federal elections."
       ],
       "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "What do you receive at the citizenship ceremony?",
+      "options": [
+        "A permanent resident card.",
+        "A Canadian Citizenship Certificate.",
+        "A free Canadian flag.",
+        "A voting registration form."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is the citizenship test usually like?",
+      "options": [
+        "An oral interview.",
+        "A written test, but it could also be an interview.",
+        "A physical examination.",
+        "A psychological assessment."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is tested during the citizenship test?",
+      "options": [
+        "Knowledge of Canada and English or French proficiency.",
+        "Physical fitness and criminal history.",
+        "Financial stability and employment history.",
+        "Community service hours completed."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is the age group that does not need to take the citizenship test?",
+      "options": [
+        "18 and below.",
+        "55 and over.",
+        "30 and below.",
+        "65 and over."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is one of the basic requirements to apply for Canadian citizenship?",
+      "options": [
+        "Owning a property in Canada.",
+        "Living in Canada for at least 1,095 days in the past five years.",
+        "Being employed full-time for five years.",
+        "Having family members who are Canadian citizens."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "How old must you be to apply for Canadian citizenship?",
+      "options": [
+        "16 years old.",
+        "18 years old.",
+        "21 years old.",
+        "No age limit."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "question": "What documents are required when applying for citizenship?",
+      "options": [
+        "Medical history and birth certificate.",
+        "Proof of permanent resident status and income tax filings.",
+        "High school diploma and employment records.",
+        "Voting registration form and driving license."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is the application fee for citizenship for an adult?",
+      "options": ["$200", "$630", "$500", "$1,000"],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "Who is exempt from paying the citizenship application fee?",
+      "options": [
+        "Seniors over 65.",
+        "Children under 18.",
+        "Permanent residents with disabilities.",
+        "Applicants with a refugee background."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "question": "What language skills are required to apply for citizenship?",
+      "options": [
+        "Basic fluency in English or French.",
+        "Fluency in at least two official languages.",
+        "Understanding of all regional dialects.",
+        "Only written knowledge of English."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "question": "What happens if your citizenship application is incomplete?",
+      "options": [
+        "You will receive a warning but your application will proceed.",
+        "Your application will be returned to you.",
+        "You will need to pay an additional fee.",
+        "You must reapply after six months."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "What must applicants file for at least three years within the last five years?",
+      "options": [
+        "Proof of employment.",
+        "Canadian income taxes.",
+        "Health insurance claims.",
+        "Voting registrations."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "question": "What happens if you do not meet all the requirements for citizenship?",
+      "options": [
+        "Your application will be rejected.",
+        "You will be asked to complete additional steps.",
+        "You will automatically lose permanent resident status.",
+        "You will have to pay additional penalties."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "question": "What does the Oath of Citizenship represent?",
+      "options": [
+        "A promise to obey Canada's laws and fulfill citizen duties.",
+        "A declaration of permanent residency.",
+        "A pledge to learn both English and French.",
+        "An agreement to serve in the Canadian Armed Forces."
+      ],
+      "answer": 0
     }
   ],
   "rights-and-responsibilities-of-citizenship": [
