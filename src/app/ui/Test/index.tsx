@@ -21,6 +21,8 @@ let testResult: TestResult = {
   score: 0,
   date: new Date(),
 };
+let startTime: number;
+let time: number;
 
 const Test = (props: Props) => {
   const router = useRouter();
@@ -37,6 +39,8 @@ const Test = (props: Props) => {
       score: 0,
       date: new Date(),
     };
+    startTime = new Date().getTime();
+    time = new Date().getTime();
   }, [props.categoryId]);
 
   const handleOptionChanged = (index: number) => {
@@ -48,11 +52,13 @@ const Test = (props: Props) => {
   };
 
   const handleSubmit = () => {
+    const currentTime = new Date().getTime();
+    const timeDiff = currentTime - time;
     if (selectedOption === currentQuestion.answer) {
       testResult.result.push({
         questionId: currentQuestionIndex,
         isCorrect: true,
-        timeMs: 1000, // calculate time
+        timeMs: timeDiff,
       });
       setResult("");
       return;
@@ -60,7 +66,7 @@ const Test = (props: Props) => {
     testResult.result.push({
       questionId: currentQuestionIndex,
       isCorrect: false,
-      timeMs: 1000, // calculate time
+      timeMs: timeDiff,
     });
     setResult(currentQuestion.options[currentQuestion.answer]);
   };
@@ -74,10 +80,14 @@ const Test = (props: Props) => {
           props.questions.length) *
           100
       );
+      testResult.totalTimeMs = new Date().getTime() - startTime;
       await saveTestResult(testResult);
       router.back();
       return;
     }
+    const currentTime = new Date().getTime();
+    time = currentTime;
+
     setResult(null);
     setSelectedOption(null);
     setCurrentQuestionIndex((prev) => prev + 1);
