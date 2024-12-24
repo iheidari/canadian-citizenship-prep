@@ -54,7 +54,7 @@ const Test = (props: Props) => {
       style={{ maxWidth: "1140px", margin: "0 auto" }}
     >
       <div className="absolute inset-0">
-        <div className="p-0 gap-0 grid grid-rows-[100px_1fr_140px] min-h-[690px] grid-cols-[100%] overflow-hidden absolute h-full w-full">
+        <div className="py-6 px-4 md:p-0 gap-0 grid grid-rows-[100px_1fr_140px] min-h-[690px] grid-cols-[100%] overflow-hidden absolute h-full w-full">
           <Progressbar
             value={((currentQuestionIndex + 1) / props.questions.length) * 100}
           />
