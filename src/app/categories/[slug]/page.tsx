@@ -1,6 +1,6 @@
 import React from "react";
 import { notFound } from "next/navigation";
-import { getCategories, getCategoryById } from "@/app/services/categories";
+import { getCategoryById } from "@/app/services/categories";
 import { DataType, getQuestions } from "@/app/services/questions";
 import Test from "@/app/ui/Test";
 
@@ -23,15 +23,5 @@ const page = async ({ params }: IProps) => {
     <Test questions={getQuestions(slug as keyof DataType)} categoryId={slug} />
   );
 };
-
-export async function generateStaticParams() {
-  const categories = await getCategories();
-  const paths = [];
-
-  for (const category of categories) {
-    paths.push({ slug: category.id });
-  }
-  return paths;
-}
 
 export default page;
