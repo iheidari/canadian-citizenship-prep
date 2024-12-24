@@ -19,7 +19,7 @@ const Categories = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="border- flex justify-center items-center min-h-screen">
       <div className="grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-8  w-full px-4 justify-items-center">
         {categories.map((item, index) => {
           const score =
@@ -34,6 +34,13 @@ const Categories = () => {
             />
           );
         })}
+        <Item
+          index={-1}
+          name={"All Categories(20)"}
+          slug={"random20"}
+          score={0}
+          borderColor="border-green-500"
+        />
       </div>
     </div>
   );

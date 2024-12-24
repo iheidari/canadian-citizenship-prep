@@ -15,7 +15,7 @@ const page = async ({ params }: IProps) => {
   const slug = (await params).slug;
   const category = getCategoryById(slug);
 
-  if (!category) {
+  if (!category && slug !== "random20") {
     return notFound();
   }
 
@@ -23,8 +23,6 @@ const page = async ({ params }: IProps) => {
     <Test questions={getQuestions(slug as keyof DataType)} categoryId={slug} />
   );
 };
-
-export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const categories = await getCategories();

@@ -7,6 +7,7 @@ interface Props {
   name: string;
   slug: string;
   score: number;
+  borderColor?: string;
 }
 
 const Item = (props: Props) => {
@@ -15,15 +16,17 @@ const Item = (props: Props) => {
       <div
         className={`relative text-white border w-40 h-40 p-2 overflow-hidden break-words flex items-center 
           justify-center text-center hover:border-blue-500 transition-colors duration-300 rounded-md m-0
-          ${getBorderColor(props.score)}`}
+          ${props.borderColor ?? getBorderColor(props.score)}`}
       >
         <div className="absolute top-2 left-2 text-lg font-bold">
-          {props.index + 1}
+          {props.index >= 0 ? props.index + 1 : ""}
         </div>
         <div className="text-lg">{props.name}</div>
-        <div className="absolute bottom-2 right-2 text-lg font-bold">
-          {props.score}%
-        </div>
+        {props.score === 0 ? null : (
+          <div className="absolute bottom-2 right-2 text-lg font-bold">
+            {props.score}%
+          </div>
+        )}
       </div>
     </Link>
   );
