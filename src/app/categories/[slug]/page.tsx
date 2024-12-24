@@ -19,7 +19,9 @@ const page = async ({ params }: IProps) => {
     return notFound();
   }
 
-  return <Test questions={getQuestions(slug as keyof DataType)} />;
+  return (
+    <Test questions={getQuestions(slug as keyof DataType)} categoryId={slug} />
+  );
 };
 
 export const dynamicParams = false;

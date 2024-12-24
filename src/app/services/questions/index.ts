@@ -1,11 +1,6 @@
+import { Question } from "../types";
 import data from "./data.json";
 
-interface Question {
-  id: number;
-  question: string;
-  options: string[];
-  answer: number;
-}
 export interface DataType {
   "applying-for-citizenship": Question[];
   "rights-and-responsibilities-of-citizenship": Question[];
