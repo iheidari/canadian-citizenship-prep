@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { QuestionType } from "./type";
 
 interface CarouselProps {
   question: QuestionType;
-  selectedOption: number | null;
-  onOptionChanged: (index: number) => void;
+  selectedOption: string | null;
+  onOptionChanged: (item: string) => void;
 }
-
 const Question = (props: CarouselProps) => {
+  const [randomizedOptions, setRandomizedOptions] = useState<string[]>([]);
+  useEffect(() => {
+    // randomly order the options
+    setRandomizedOptions(
+      [...props.question.options].sort(() => Math.random() - 0.5)
+    );
+  }, [props.question.options]);
+
   return (
     <div className="col-start-1 row-start-2 flex flex-col min-h-0 w-full">
       <div className="grid h-full relative w-full">
@@ -20,11 +27,11 @@ const Question = (props: CarouselProps) => {
               </h2>
               {/* Options */}
               <div className="mb-6 md:mb-8">
-                {props.question.options.map((option, index) => (
+                {randomizedOptions.map((option) => (
                   <label
-                    key={index}
+                    key={option}
                     className={`block py-2 md:py-4 cursor-pointer text-base md:text-lg ${
-                      props.selectedOption === index
+                      props.selectedOption === option
                         ? "text-blue-400"
                         : "text-white"
                     } text-left md:whitespace-normal`}
@@ -32,9 +39,9 @@ const Question = (props: CarouselProps) => {
                     <input
                       type="radio"
                       name="option"
-                      value={index}
-                      checked={props.selectedOption === index}
-                      onChange={() => props.onOptionChanged(index)}
+                      value={option}
+                      checked={props.selectedOption === option}
+                      onChange={() => props.onOptionChanged(option)}
                       className="mr-2"
                     />
                     {option}

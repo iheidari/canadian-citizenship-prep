@@ -1,18 +1,17 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import ConfirmationModal from "../ConfirmationModal";
+import ConfirmationModal from "./ConfirmationModal";
 
 interface ProgressbarProps {
   value: number;
+  onClose: () => void;
 }
 
-const Progressbar: React.FC<ProgressbarProps> = ({ value }) => {
+const Progressbar = (props: ProgressbarProps) => {
   const [showConfirmationModal, setShowConfirmationModal] = useState(false);
   const router = useRouter();
-  const handleClose = () => {
-    setShowConfirmationModal(true);
-  };
+
   return (
     <>
       <div className="col-start-1 row-start-1">
@@ -26,7 +25,7 @@ const Progressbar: React.FC<ProgressbarProps> = ({ value }) => {
           <div className="grid grid-cols-[min-content_1fr_min-content] gap-6 items-center">
             <button
               className="outline-none h-4 w-4 bg-none border-none p-0 transition-filter duration-200"
-              onClick={handleClose}
+              onClick={() => setShowConfirmationModal(true)}
             >
               <Image
                 src="/icons/close.svg"
@@ -38,7 +37,7 @@ const Progressbar: React.FC<ProgressbarProps> = ({ value }) => {
             <div className="h-4 bg-gray-700 rounded-md">
               <div
                 className="h-4 bg-green-600 rounded-md transition-all duration-500"
-                style={{ width: `${value}%` }}
+                style={{ width: `${props.value}%` }}
               ></div>
             </div>
           </div>
@@ -46,9 +45,7 @@ const Progressbar: React.FC<ProgressbarProps> = ({ value }) => {
       </div>
       {showConfirmationModal ? (
         <ConfirmationModal
-          onClose={() => {
-            router.back();
-          }}
+          onBack={props.onClose}
           onContinue={() => {
             setShowConfirmationModal(false);
           }}

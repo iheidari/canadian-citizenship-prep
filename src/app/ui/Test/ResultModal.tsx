@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { convertTime, getResultText } from "./util";
+import Modal from "../Modal";
 
 interface ModalProps {
   onClose: () => void;
@@ -11,39 +12,33 @@ interface ModalProps {
 
 const ResultModal = ({ onClose, score, time }: ModalProps) => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50">
-      <div className="bg-gray-800 text-white rounded-lg p-6 max-w-sm w-full shadow-lg">
-        {/* Modal Content */}
-        <div className="flex flex-col items-center">
-          {/* Text */}
-          <p className="text-lg text-center mb-4">{getResultText(score)}</p>
-          <div className="flex flex-row justify-around w-full mb-9">
-            <Label title="Score" value={`${score}%`} color="yellow-500" />
-            <Label title="Time" value={convertTime(time)} color="green-500" />
-          </div>
+    <Modal
+      message={<Message score={score} time={time} />}
+      cta={[<BackButton key="back" onClick={onClose} />]}
+    />
+  );
+};
 
-          {/* Buttons */}
-          <div className="flex flex-col items-center gap-4 w-full">
-            {/* Keep Learning Button */}
-            {/* {score === 100 ? null : (
-              <button
-                onClick={onReview}
-                className="w-full py-2 bg-blue-500 text-white font-bold text-lg rounded-md shadow-md hover:bg-blue-600"
-              >
-                Review wrong answers
-              </button>
-            )} */}
-            {/* End Session Button */}
-            <button
-              onClick={onClose}
-              className="w-full py-2 text-red-500 font-bold text-lg"
-            >
-              Back
-            </button>
-          </div>
-        </div>
+const Message = (props: { score: number; time: number }) => {
+  return (
+    <>
+      <p className="text-lg text-center mb-4">{getResultText(props.score)}</p>
+      <div className="flex flex-row justify-around w-full mb-9">
+        <Label title="Score" value={`${props.score}%`} color="yellow-500" />
+        <Label title="Time" value={convertTime(props.time)} color="green-500" />
       </div>
-    </div>
+    </>
+  );
+};
+
+const BackButton = (props: { onClick: () => void }) => {
+  return (
+    <button
+      onClick={props.onClick}
+      className="w-full py-2 text-red-500 font-bold text-lg"
+    >
+      Back
+    </button>
   );
 };
 

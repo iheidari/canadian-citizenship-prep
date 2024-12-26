@@ -1,7 +1,15 @@
+type QuestionStatus = "correct" | "incorrect" | "skipped";
+
+interface ResultType {
+  questionId: number;
+  status?: QuestionStatus;
+  timeMs: number;
+}
+
 export interface TestResult {
   categoryId: string;
-  result: { questionId: number; isCorrect: boolean; timeMs: number }[];
-  score: number; // we can easily calculate this base on result
+  result: ResultType[];
+  score: number;
   date: Date;
   totalTimeMs: number;
 }

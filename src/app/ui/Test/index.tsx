@@ -8,25 +8,30 @@ import ActionsBar from "./ActionsBar";
 import Answer from "./Answer";
 import { useRouter } from "next/navigation";
 import { TestResult } from "@/app/services/db/types";
-import { saveTestResult } from "@/app/services/db";
+import { getTestResult } from "@/app/services/db";
 import ResultModal from "./ResultModal";
+import { saveResult } from "./util";
+import useTimer from "@/app/services/use-timer";
+import ContinueModal from "./ContinueModal";
 
 interface Props {
   categoryId: string;
   questions: QuestionType[];
 }
 
+let previousTestResult: TestResult;
 let testResult: TestResult;
-let startTime: number;
-let time: number;
 
 const Test = (props: Props) => {
   const router = useRouter();
+  const timer = useTimer();
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [progressValue, setProgressValue] = useState(0);
-  const [selectedOption, setSelectedOption] = useState<number | null>(null);
+  const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [result, setResult] = useState<string | null>(null);
+
+  const [showContinueModal, setShowContinueModal] = useState(false);
   const [showFinalResult, setShowFinalResult] = useState(false);
 
   useEffect(() => {
@@ -34,64 +39,101 @@ const Test = (props: Props) => {
       categoryId: props.categoryId,
       result: [],
       score: 0,
-      date: new Date(),
       totalTimeMs: 0,
+      date: new Date(),
     };
-    startTime = new Date().getTime();
-    time = new Date().getTime();
   }, [props.categoryId]);
 
-  const handleOptionChanged = (index: number) => {
-    setSelectedOption(index);
+  useEffect(() => {
+    const loadTestResult = async () => {
+      const previousResult = await getTestResult(props.categoryId);
+
+      if (previousResult) {
+        const lastUnAnsweredQuestionIndex = previousResult.result.length;
+        if (
+          lastUnAnsweredQuestionIndex > 0 &&
+          lastUnAnsweredQuestionIndex < props.questions.length
+        ) {
+          setShowContinueModal(true);
+          previousTestResult = previousResult;
+        }
+      }
+    };
+
+    loadTestResult();
+  }, [props.categoryId, props.questions.length]);
+
+  const handleOptionChanged = (option: string) => {
+    setSelectedOption(option);
   };
 
   const handleSkip = () => {
     const currentQuestion = props.questions[currentQuestionIndex];
+
+    testResult.result.push({
+      questionId: currentQuestionIndex,
+      status: "skipped",
+      timeMs: timer.getElapsedTime(),
+    });
     setResult(currentQuestion.options[currentQuestion.answer]);
   };
 
   const handleSubmit = () => {
     const currentQuestion = props.questions[currentQuestionIndex];
-    const currentTime = new Date().getTime();
-    const timeDiff = currentTime - time;
+    const timeDiff = timer.getElapsedTime();
+
     setProgressValue((prev) => prev + 1);
-    if (selectedOption === currentQuestion.answer) {
+
+    if (selectedOption === currentQuestion.options[currentQuestion.answer]) {
       testResult.result.push({
         questionId: currentQuestionIndex,
-        isCorrect: true,
+        status: "correct",
         timeMs: timeDiff,
       });
       setResult("");
       return;
     }
+
     testResult.result.push({
       questionId: currentQuestionIndex,
-      isCorrect: false,
+      status: "incorrect",
       timeMs: timeDiff,
     });
     setResult(currentQuestion.options[currentQuestion.answer]);
   };
 
-  const handleContinue = async () => {
+  const handleContinueToNext = async () => {
     const isLastQuestion = currentQuestionIndex === props.questions.length - 1;
     if (isLastQuestion) {
-      // go to result page
-      testResult.score = Math.floor(
-        (testResult.result.filter((r) => r.isCorrect).length /
-          props.questions.length) *
-          100
-      );
-      testResult.totalTimeMs = new Date().getTime() - startTime;
-      await saveTestResult(testResult);
+      saveResult(testResult, props.questions.length, timer.getTotalTime());
       setShowFinalResult(true);
       return;
     }
-    const currentTime = new Date().getTime();
-    time = currentTime;
+
+    timer.getElapsedTime();
 
     setResult(null);
     setSelectedOption(null);
     setCurrentQuestionIndex((prev) => prev + 1);
+  };
+
+  const handleClose = () => {
+    if (testResult.result.length > 0) {
+      saveResult(testResult, props.questions.length, timer.getTotalTime());
+      setShowFinalResult(true);
+      return;
+    }
+    router.back();
+  };
+
+  const handleContinuePreviousTest = () => {
+    testResult = { ...previousTestResult };
+    const lastUnAnsweredQuestionIndex = previousTestResult.result.length;
+    if (lastUnAnsweredQuestionIndex < props.questions.length) {
+      setCurrentQuestionIndex(lastUnAnsweredQuestionIndex);
+      setProgressValue(lastUnAnsweredQuestionIndex);
+    }
+    setShowContinueModal(false);
   };
 
   return (
@@ -101,7 +143,10 @@ const Test = (props: Props) => {
     >
       <div className="absolute inset-0">
         <div className="py-6 px-4 md:p-0 gap-0 grid grid-rows-[100px_1fr_140px] min-h-[690px] grid-cols-[100%] overflow-hidden absolute h-full w-full">
-          <Progressbar value={(progressValue / props.questions.length) * 100} />
+          <Progressbar
+            value={(progressValue / props.questions.length) * 100}
+            onClose={handleClose}
+          />
           <Question
             question={props.questions[currentQuestionIndex]}
             selectedOption={selectedOption}
@@ -114,7 +159,7 @@ const Test = (props: Props) => {
               onSubmit={selectedOption === null ? undefined : handleSubmit}
             />
           ) : (
-            <Answer onContinue={handleContinue} correctAnswer={result} />
+            <Answer onContinue={handleContinueToNext} correctAnswer={result} />
           )}
           {showFinalResult ? (
             <ResultModal
@@ -124,6 +169,12 @@ const Test = (props: Props) => {
               // }
               score={testResult.score}
               time={testResult.totalTimeMs}
+            />
+          ) : null}
+          {showContinueModal ? (
+            <ContinueModal
+              onContinue={handleContinuePreviousTest}
+              onReset={() => setShowContinueModal(false)}
             />
           ) : null}
         </div>
