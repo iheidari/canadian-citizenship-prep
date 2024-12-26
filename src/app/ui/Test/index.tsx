@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Question from "./Question";
-import { QuestionType } from "./type";
+import { PageMode, QuestionType } from "./types";
 import Progressbar from "./Progressbar";
 import ActionsBar from "./ActionsBar";
 import Answer from "./Answer";
@@ -10,7 +10,13 @@ import { useRouter } from "next/navigation";
 import { TestResult } from "@/app/services/db/types";
 import { getTestResult } from "@/app/services/db";
 import ResultModal from "./ResultModal";
-import { saveResult } from "./util";
+import {
+  getNextQuestionId,
+  getQuestionById,
+  isLastQuestion,
+  saveResult,
+  updateResults,
+} from "./util";
 import useTimer from "@/app/services/use-timer";
 import ContinueModal from "./ContinueModal";
 
@@ -26,12 +32,17 @@ const Test = (props: Props) => {
   const router = useRouter();
   const timer = useTimer();
 
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [questions, setQuestions] = useState<QuestionType[]>(props.questions);
+  const [currentQuestionId, setCurrentQuestionId] = useState(
+    props.questions[0].id
+  );
   const [progressValue, setProgressValue] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [result, setResult] = useState<string | null>(null);
 
-  const [showContinueModal, setShowContinueModal] = useState(false);
+  const [pageMode, setPageMode] = useState<PageMode>("normal");
+
+  const [showPageModeModal, setShowPageModeModal] = useState(false);
   const [showFinalResult, setShowFinalResult] = useState(false);
 
   useEffect(() => {
@@ -50,28 +61,41 @@ const Test = (props: Props) => {
 
       if (previousResult) {
         const lastUnAnsweredQuestionIndex = previousResult.result.length;
+        previousTestResult = { ...previousResult };
+        if (lastUnAnsweredQuestionIndex === questions.length) {
+          // at least one incorrect answer
+          if (previousResult.result.some((r) => r.status === "incorrect")) {
+            setShowPageModeModal(true);
+            setPageMode("review");
+          }
+        }
         if (
           lastUnAnsweredQuestionIndex > 0 &&
-          lastUnAnsweredQuestionIndex < props.questions.length
+          lastUnAnsweredQuestionIndex < questions.length
         ) {
-          setShowContinueModal(true);
-          previousTestResult = previousResult;
+          setShowPageModeModal(true);
+          setPageMode("continue");
         }
       }
     };
 
-    loadTestResult();
-  }, [props.categoryId, props.questions.length]);
+    if (props.categoryId !== "random20") {
+      loadTestResult();
+    }
+  }, [props.categoryId, questions.length]);
 
   const handleOptionChanged = (option: string) => {
     setSelectedOption(option);
   };
 
   const handleSkip = () => {
-    const currentQuestion = props.questions[currentQuestionIndex];
+    const currentQuestion = getQuestionById(currentQuestionId, questions);
+    if (currentQuestion === undefined) {
+      return;
+    }
 
     testResult.result.push({
-      questionId: currentQuestionIndex,
+      questionId: currentQuestionId,
       status: "skipped",
       timeMs: timer.getElapsedTime(),
     });
@@ -79,32 +103,37 @@ const Test = (props: Props) => {
   };
 
   const handleSubmit = () => {
-    const currentQuestion = props.questions[currentQuestionIndex];
+    const currentQuestion = getQuestionById(currentQuestionId, questions);
+    if (currentQuestion === undefined) {
+      return;
+    }
     const timeDiff = timer.getElapsedTime();
 
     setProgressValue((prev) => prev + 1);
 
     if (selectedOption === currentQuestion.options[currentQuestion.answer]) {
-      testResult.result.push({
-        questionId: currentQuestionIndex,
+      testResult.result = updateResults(testResult.result, {
+        questionId: currentQuestionId,
         status: "correct",
         timeMs: timeDiff,
       });
+
       setResult("");
       return;
     }
 
-    testResult.result.push({
-      questionId: currentQuestionIndex,
+    testResult.result = updateResults(testResult.result, {
+      questionId: currentQuestionId,
       status: "incorrect",
       timeMs: timeDiff,
     });
+
     setResult(currentQuestion.options[currentQuestion.answer]);
   };
 
   const handleContinueToNext = async () => {
-    const isLastQuestion = currentQuestionIndex === props.questions.length - 1;
-    if (isLastQuestion) {
+    const isLast = isLastQuestion(currentQuestionId, questions);
+    if (isLast) {
       saveResult(testResult, props.questions.length, timer.getTotalTime());
       setShowFinalResult(true);
       return;
@@ -114,10 +143,11 @@ const Test = (props: Props) => {
 
     setResult(null);
     setSelectedOption(null);
-    setCurrentQuestionIndex((prev) => prev + 1);
+    const nextQuestionId = getNextQuestionId(currentQuestionId, questions);
+    setCurrentQuestionId(nextQuestionId);
   };
 
-  const handleClose = () => {
+  const handleExitTest = () => {
     if (testResult.result.length > 0) {
       saveResult(testResult, props.questions.length, timer.getTotalTime());
       setShowFinalResult(true);
@@ -126,14 +156,25 @@ const Test = (props: Props) => {
     router.back();
   };
 
-  const handleContinuePreviousTest = () => {
+  const handleContinueModalAction = () => {
     testResult = { ...previousTestResult };
-    const lastUnAnsweredQuestionIndex = previousTestResult.result.length;
-    if (lastUnAnsweredQuestionIndex < props.questions.length) {
-      setCurrentQuestionIndex(lastUnAnsweredQuestionIndex);
+    if (pageMode === "continue") {
+      const lastUnAnsweredQuestionIndex = previousTestResult.result.length;
+      setCurrentQuestionId(props.questions[lastUnAnsweredQuestionIndex].id);
       setProgressValue(lastUnAnsweredQuestionIndex);
     }
-    setShowContinueModal(false);
+    if (pageMode === "review") {
+      const wrongAnsweredQuestionIds = testResult.result
+        .filter((q) => q.status === "incorrect")
+        .map((q) => q.questionId);
+      setCurrentQuestionId(wrongAnsweredQuestionIds[0]);
+      const newQuestionList = props.questions.filter((q) =>
+        wrongAnsweredQuestionIds.includes(q.id)
+      );
+
+      setQuestions(newQuestionList);
+    }
+    setShowPageModeModal(false);
   };
 
   return (
@@ -144,11 +185,12 @@ const Test = (props: Props) => {
       <div className="absolute inset-0">
         <div className="py-6 px-4 md:p-0 gap-0 grid grid-rows-[100px_1fr_140px] min-h-[690px] grid-cols-[100%] overflow-hidden absolute h-full w-full">
           <Progressbar
-            value={(progressValue / props.questions.length) * 100}
-            onClose={handleClose}
+            value={(progressValue / questions.length) * 100}
+            onClose={handleExitTest}
+            isJustStarted={progressValue === 0}
           />
           <Question
-            question={props.questions[currentQuestionIndex]}
+            question={getQuestionById(currentQuestionId, questions)}
             selectedOption={selectedOption}
             onOptionChanged={handleOptionChanged}
           />
@@ -164,17 +206,15 @@ const Test = (props: Props) => {
           {showFinalResult ? (
             <ResultModal
               onClose={() => router.back()}
-              // onReview={() =>
-              //   router.push(`/categories/${props.categoryId}?review=true`)
-              // }
               score={testResult.score}
               time={testResult.totalTimeMs}
             />
           ) : null}
-          {showContinueModal ? (
+          {showPageModeModal ? (
             <ContinueModal
-              onContinue={handleContinuePreviousTest}
-              onReset={() => setShowContinueModal(false)}
+              pageMode={pageMode}
+              onAction={handleContinueModalAction}
+              onReset={() => setShowPageModeModal(false)}
             />
           ) : null}
         </div>

@@ -1,5 +1,6 @@
 import { saveTestResult } from "@/app/services/db";
-import { TestResult } from "@/app/services/db/types";
+import { ResultType, TestResult } from "@/app/services/db/types";
+import { QuestionType } from "./types";
 
 export const getResultText = (score: number) => {
   if (score < 50) {
@@ -21,11 +22,11 @@ export const convertTime = (time: number) => {
 };
 
 export const calculateScore = (
-  result: TestResult["result"],
+  results: ResultType[],
   totalQuestionsCount: number
 ) => {
   return Math.floor(
-    (result.filter((r) => r.status === "correct").length /
+    (results.filter((r) => r.status === "correct").length /
       totalQuestionsCount) *
       100
   );
@@ -39,4 +40,37 @@ export const saveResult = async (
   testResult.score = calculateScore(testResult.result, totalQuestionsCount);
   testResult.totalTimeMs = totalTime;
   await saveTestResult(testResult);
+};
+
+export const getQuestionById = (id: number, questions: QuestionType[]) => {
+  return questions.find((q) => q.id === id);
+};
+
+export const isLastQuestion = (
+  currentQuestionId: number,
+  questions: QuestionType[]
+) => {
+  return currentQuestionId === questions[questions.length - 1].id;
+};
+
+export const getNextQuestionId = (
+  currentQuestionId: number,
+  questions: QuestionType[]
+) => {
+  const currentIndex = questions.findIndex((q) => q.id === currentQuestionId);
+  return questions[currentIndex + 1].id;
+};
+
+export const updateResults = (results: ResultType[], newResult: ResultType) => {
+  const updatedResult = [...results];
+  const index = updatedResult.findIndex(
+    (r) => r.questionId === newResult.questionId
+  );
+  if (index === -1) {
+    updatedResult.push(newResult);
+  } else {
+    updatedResult[index] = newResult;
+  }
+
+  return updatedResult;
 };

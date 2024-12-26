@@ -1,19 +1,26 @@
 import React, { useEffect, useState } from "react";
-import { QuestionType } from "./type";
+import { QuestionType } from "./types";
 
 interface CarouselProps {
-  question: QuestionType;
+  question?: QuestionType;
   selectedOption: string | null;
   onOptionChanged: (item: string) => void;
 }
 const Question = (props: CarouselProps) => {
   const [randomizedOptions, setRandomizedOptions] = useState<string[]>([]);
   useEffect(() => {
+    if (props.question === undefined) {
+      return;
+    }
     // randomly order the options
     setRandomizedOptions(
       [...props.question.options].sort(() => Math.random() - 0.5)
     );
-  }, [props.question.options]);
+  }, [props.question, props.question?.options]);
+
+  if (!props.question) {
+    return null;
+  }
 
   return (
     <div className="col-start-1 row-start-2 flex flex-col min-h-0 w-full">

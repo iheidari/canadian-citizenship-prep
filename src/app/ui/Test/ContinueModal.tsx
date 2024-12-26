@@ -1,33 +1,48 @@
 import Modal from "../Modal";
+import { PageMode } from "./types";
 
 interface ModalProps {
-  onContinue: () => void;
+  pageMode: PageMode;
+  onAction: () => void;
   onReset: () => void;
 }
 
 const ContinueModal = (props: ModalProps) => {
+  const message =
+    props.pageMode === "review"
+      ? "Review your wrong answers"
+      : "Continue from where you left off?";
+
+  const actionLabel = props.pageMode === "review" ? "REVIEW" : "CONTINUE";
+
   return (
     <Modal
-      message={<Message />}
+      message={<Message message={message} />}
       cta={[
-        <ContinueButton key="continue" onClick={props.onContinue} />,
+        <ContinueButton
+          key="continue"
+          onClick={props.onAction}
+          label={actionLabel}
+        />,
         <ResetButton key="reset" onClick={props.onReset} />,
       ]}
     />
   );
 };
 
-const Message = () => {
-  return <p className="text-lg font-semibold text-center mb-4">Continue?</p>;
+const Message = (props: { message: string }) => {
+  return (
+    <p className="text-lg font-semibold text-center mb-4">{props.message}</p>
+  );
 };
 
-const ContinueButton = (props: { onClick: () => void }) => {
+const ContinueButton = (props: { onClick: () => void; label: string }) => {
   return (
     <button
       onClick={props.onClick}
       className="w-full py-2 bg-blue-500 text-white font-bold text-lg rounded-md shadow-md hover:bg-blue-600"
     >
-      CONTINUE
+      {props.label}
     </button>
   );
 };

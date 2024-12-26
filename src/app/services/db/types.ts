@@ -1,6 +1,6 @@
 type QuestionStatus = "correct" | "incorrect" | "skipped";
 
-interface ResultType {
+export interface ResultType {
   questionId: number;
   status?: QuestionStatus;
   timeMs: number;

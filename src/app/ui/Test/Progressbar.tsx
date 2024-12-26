@@ -1,16 +1,21 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
 import ConfirmationModal from "./ConfirmationModal";
 
 interface ProgressbarProps {
+  isJustStarted: boolean;
   value: number;
   onClose: () => void;
 }
 
 const Progressbar = (props: ProgressbarProps) => {
   const [showConfirmationModal, setShowConfirmationModal] = useState(false);
-  const router = useRouter();
+  const handleClose = () => {
+    if (props.isJustStarted) {
+      props.onClose();
+    }
+    setShowConfirmationModal(true);
+  };
 
   return (
     <>
@@ -25,7 +30,7 @@ const Progressbar = (props: ProgressbarProps) => {
           <div className="grid grid-cols-[min-content_1fr_min-content] gap-6 items-center">
             <button
               className="outline-none h-4 w-4 bg-none border-none p-0 transition-filter duration-200"
-              onClick={() => setShowConfirmationModal(true)}
+              onClick={handleClose}
             >
               <Image
                 src="/icons/close.svg"
