@@ -19,7 +19,7 @@ const Categories = () => {
   }, []);
 
   return (
-    <div className="border- flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center min-h-screen">
       <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-8  w-full px-4 justify-items-center">
         {categories.map((item, index) => {
           const score =
