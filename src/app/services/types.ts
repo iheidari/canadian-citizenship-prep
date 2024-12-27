@@ -3,6 +3,7 @@ export interface Question {
   question: string;
   options: string[];
   answer: number;
+  categoryId: string;
 }
 
 export interface Category {

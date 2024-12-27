@@ -27,9 +27,9 @@ const Item = (props: Props) => {
           <Image
             src={`/images/categories/${props.slug}.webp`}
             alt={props.name}
-            layout="fill"
-            objectFit="cover"
-            className="rounded-md"
+            className="rounded-md w-full h-full object-cover"
+            width={300}
+            height={300}
           />
 
           {/* Index */}

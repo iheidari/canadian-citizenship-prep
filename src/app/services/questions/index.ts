@@ -2,39 +2,33 @@ import { Question } from "../types";
 import questionsData from "./data.json";
 import categoriesData from "../categories/data.json";
 
-export interface DataType {
-  "applying-for-citizenship": Question[];
-  "rights-and-responsibilities-of-citizenship": Question[];
-  "who-we-are": Question[];
-  "canadas-history": Question[];
-  "modern-canada": Question[];
-  "how-canadians-govern-themselves": Question[];
-  "federal-elections": Question[];
-  "the-justice-system": Question[];
-  "canadian-symbols": Question[];
-  "canadas-economy": Question[];
-  "canadas-regions": Question[];
-}
+export type CategoriesKey =
+  | "applying-for-citizenship"
+  | "rights-and-responsibilities-of-citizenship"
+  | "who-we-are"
+  | "canadas-history"
+  | "modern-canada"
+  | "how-canadians-govern-themselves"
+  | "federal-elections"
+  | "the-justice-system"
+  | "canadian-symbols"
+  | "canadas-economy"
+  | "canadas-regions"
+  | "random20";
 
-const typedData: DataType = questionsData;
-type categoriesKey = keyof DataType | "random20";
-
-export const getQuestions = (id: categoriesKey) => {
+export const getQuestionsByCategory = (id: CategoriesKey) => {
   if (id === "random20") {
     return getRandomQuestions(20);
   }
-  return typedData[id];
+  return questionsData.filter((question) => question.categoryId === id);
 };
 
-type QuestionsByCategory = Record<string, Question[]>;
-
 export function getRandomQuestions(totalQuestions: number): Question[] {
-  const questionsByCategory: QuestionsByCategory = questionsData;
   // Step 1: Calculate the number of questions per category based on the percentage
   const categoryQuestionCounts = categoriesData.map((category) => {
     return {
       id: category.id,
-      count: Math.round((category.percentage / 100) * totalQuestions), // Calculate questions based on percentage
+      count: Math.floor((category.percentage / 100) * totalQuestions), // Use Math.floor instead of Math.round
     };
   });
 
@@ -45,7 +39,7 @@ export function getRandomQuestions(totalQuestions: number): Question[] {
   );
   let remaining = totalQuestions - totalAllocated;
 
-  // Distribute the remaining questions
+  // Distribute the remaining questions, giving 1 extra question to categories until the remaining count is 0
   while (remaining > 0) {
     for (let i = 0; i < categoryQuestionCounts.length && remaining > 0; i++) {
       categoryQuestionCounts[i].count++;
@@ -55,8 +49,10 @@ export function getRandomQuestions(totalQuestions: number): Question[] {
 
   // Step 3: Randomly pick questions from each category
   const selectedQuestions: Question[] = [];
-  categoryQuestionCounts.forEach(({ id, count }) => {
-    const categoryQuestions = questionsByCategory[id];
+  categoryQuestionCounts.forEach(({ id: categoryId, count }) => {
+    const categoryQuestions = getQuestionsByCategory(
+      categoryId as CategoriesKey
+    );
     if (categoryQuestions && categoryQuestions.length > 0) {
       // Shuffle and pick the required number of questions
       const shuffledQuestions = [...categoryQuestions].sort(

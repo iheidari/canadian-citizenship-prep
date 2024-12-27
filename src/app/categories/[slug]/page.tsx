@@ -1,7 +1,10 @@
 import React from "react";
 import { notFound } from "next/navigation";
 import { getCategoryById } from "@/app/services/categories";
-import { DataType, getQuestions } from "@/app/services/questions";
+import {
+  CategoriesKey,
+  getQuestionsByCategory,
+} from "@/app/services/questions";
 import Test from "@/app/ui/Test";
 
 // for nextjs 15, params will pass as a promise
@@ -20,7 +23,10 @@ const page = async ({ params }: IProps) => {
   }
 
   return (
-    <Test questions={getQuestions(slug as keyof DataType)} categoryId={slug} />
+    <Test
+      questions={getQuestionsByCategory(slug as CategoriesKey)}
+      categoryId={slug}
+    />
   );
 };
 

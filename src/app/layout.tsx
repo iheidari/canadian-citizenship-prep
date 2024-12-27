@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,35 +26,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <Head>
-          {/* Apple Touch Icon */}
-          <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/apple-touch-icon.png"
-          />
-          {/* Favicon for 32x32 */}
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/favicon-32x32.png"
-          />
-          {/* Favicon for 16x16 */}
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/favicon-16x16.png"
-          />
-          {/* Web Manifest */}
-          <link rel="manifest" href="/site.webmanifest" />
-        </Head>
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Google AdSense code */}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4083721213057833"
+          strategy="beforeInteractive"
+          async
+          crossOrigin="anonymous"
+        />
         <main>{children}</main>
       </body>
     </html>
