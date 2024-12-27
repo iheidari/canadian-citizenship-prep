@@ -19,8 +19,8 @@ const Categories = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-8  w-full px-4 justify-items-center">
+    <div className="flex justify-center items-center min-h-screen px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-8 w-full justify-items-center">
         {categories.map((item, index) => {
           const score =
             testResults.find((r) => r.categoryId === item.id)?.score ?? 0;

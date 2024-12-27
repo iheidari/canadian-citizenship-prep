@@ -13,14 +13,17 @@ interface Props {
 
 const Item = (props: Props) => {
   return (
-    <Link href={`/categories/${props.slug}`}>
+    <Link
+      href={`/categories/${props.slug}`}
+      className="w-full flex justify-center"
+    >
       <div
-        className={`relative border w-60 h-80 p-4 flex flex-col items-center 
+        className={`relative border w-full sm:w-60 md:w-72  p-4 flex flex-col items-center 
           justify-between text-center hover:border-blue-500 transition-colors duration-300 rounded-md m-2
           ${props.borderColor ?? getBorderColor(props.score)}`}
       >
         {/* Image Section */}
-        <div className="relative w-full h-56 rounded-md overflow-hidden">
+        <div className="relative w-full h-56 sm:h-56 md:h-64 rounded-md overflow-hidden">
           <Image
             src={`/images/categories/${props.slug}.webp`}
             alt={props.name}
@@ -45,7 +48,7 @@ const Item = (props: Props) => {
         </div>
 
         {/* Name Section */}
-        <div className="mt-4 text-xl font-semibold text-white">
+        <div className="w-full mt-4 text-lg sm:text-xl font-semibold text-white">
           {props.name}
         </div>
       </div>
