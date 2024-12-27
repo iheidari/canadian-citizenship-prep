@@ -13,6 +13,7 @@ const Header = () => {
             className="w-16 h-16 md:w-24 md:h-24 rounded-sm"
             width={96}
             height={96}
+            priority
           />
           <Link href="/">
             <h1 className="text-xl md:text-3xl font-bold text-white">

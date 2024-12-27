@@ -9,6 +9,7 @@ interface Props {
   slug: string;
   score: number;
   borderColor?: string;
+  imagePriority?: boolean;
 }
 
 const Item = (props: Props) => {
@@ -30,6 +31,7 @@ const Item = (props: Props) => {
             className="rounded-md w-full h-full object-cover"
             width={300}
             height={300}
+            priority={props.imagePriority}
           />
 
           {/* Index */}

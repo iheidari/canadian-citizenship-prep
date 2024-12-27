@@ -27,6 +27,7 @@ const Categories = () => {
           slug={"random20"}
           score={0}
           borderColor="border-green-500"
+          imagePriority
         />
         {categories.map((item, index) => {
           const score =
@@ -38,6 +39,7 @@ const Categories = () => {
               name={item.title}
               slug={item.id}
               score={score}
+              imagePriority={index < 2}
             />
           );
         })}
