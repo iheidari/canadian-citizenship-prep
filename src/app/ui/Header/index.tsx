@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="h-32 bg-gradient-to-r from-red-950 to-red-900 text-white flex items-center justify-center px-6 shadow-md">
-      <div className="flex items-center justify-between w-full">
+    <header className="h-32 bg-gradient-to-r from-red-950 to-red-900 text-white flex items-center justify-center shadow-md">
+      <div className="flex items-center justify-between w-full max-w-[960px] px-4">
         {/* Logo Section (Optional) */}
         <div className="flex items-center space-x-4">
           <Image

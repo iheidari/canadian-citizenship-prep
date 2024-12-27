@@ -19,11 +19,11 @@ const Categories = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center min-h-screen px-4 pt-4">
+    <div className="flex justify-center items-center min-h-screen p-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-8 w-full justify-items-center">
         <Item
           index={-1}
-          name={"All Categories(20)"}
+          name={"Mock Test"}
           slug={"random20"}
           score={0}
           borderColor="border-green-500"
