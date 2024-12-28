@@ -18,7 +18,7 @@ const page = async ({ params }: IProps) => {
   const slug = (await params).slug;
   const category = getCategoryById(slug);
 
-  if (!category && slug !== "random20") {
+  if (!category && slug !== "mock-test") {
     return notFound();
   }
 

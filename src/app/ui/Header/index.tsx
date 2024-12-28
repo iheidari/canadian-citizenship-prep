@@ -21,16 +21,6 @@ const Header = () => {
             </h1>
           </Link>
         </div>
-
-        {/* Navigation Section (Optional) */}
-        {/* <nav className="hidden md:flex space-x-6">
-          <Link href="/about">
-            <a className="text-lg hover:text-gray-300">About</a>
-          </Link>
-          <Link href="/contact">
-            <a className="text-lg hover:text-gray-300">Contact</a>
-          </Link>
-        </nav> */}
       </div>
     </header>
   );

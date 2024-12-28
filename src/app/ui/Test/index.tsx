@@ -79,7 +79,7 @@ const Test = (props: Props) => {
       }
     };
 
-    if (props.categoryId !== "random20") {
+    if (props.categoryId !== "mock-test") {
       loadTestResult();
     }
   }, [props.categoryId, questions.length]);

@@ -14,10 +14,10 @@ export type CategoriesKey =
   | "canadian-symbols"
   | "canadas-economy"
   | "canadas-regions"
-  | "random20";
+  | "mock-test";
 
 export const getQuestionsByCategory = (id: CategoriesKey) => {
-  if (id === "random20") {
+  if (id === "mock-test") {
     return getRandomQuestions(20);
   }
   return questionsData.filter((question) => question.categoryId === id);
