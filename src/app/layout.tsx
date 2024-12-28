@@ -38,11 +38,11 @@ export default function RootLayout({
           async
           crossOrigin="anonymous"
         />
-        <Script id="google-adsense">
+        {/* <Script id="google-adsense">
           {`
             (adsbygoogle = window.adsbygoogle || []).push({});
           `}
-        </Script>
+        </Script> */}
         <main className="bg-gray-900">{children}</main>
       </body>
     </html>
