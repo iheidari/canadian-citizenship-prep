@@ -30,7 +30,7 @@ const KeepLearningButton = (props: { onClick: () => void }) => {
   return (
     <button
       onClick={props.onClick}
-      className="w-full py-2 bg-blue-500 text-white font-bold text-lg rounded-md shadow-md hover:bg-blue-600"
+      className="w-full py-2 bg-blue-500 font-bold text-lg rounded-md shadow-md hover:bg-blue-600"
     >
       KEEP LEARNING
     </button>

@@ -43,7 +43,9 @@ export default function RootLayout({
             (adsbygoogle = window.adsbygoogle || []).push({});
           `}
         </Script> */}
-        <main className="bg-gray-900">{children}</main>
+        <main className="bg-gray-300 dark:bg-gray-900 text-black dark:text-white">
+          {children}
+        </main>
       </body>
     </html>
   );

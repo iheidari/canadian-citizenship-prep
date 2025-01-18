@@ -39,8 +39,8 @@ const Question = (props: CarouselProps) => {
                     key={option}
                     className={`block py-2 md:py-4 cursor-pointer text-base md:text-lg ${
                       props.selectedOption === option
-                        ? "text-blue-400"
-                        : "text-white"
+                        ? "dark:text-blue-400 text-blue-800"
+                        : ""
                     } text-left md:whitespace-normal`}
                   >
                     <input

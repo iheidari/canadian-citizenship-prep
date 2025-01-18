@@ -35,7 +35,7 @@ const BackButton = (props: { onClick: () => void }) => {
   return (
     <button
       onClick={props.onClick}
-      className="w-full py-2 text-red-500 font-bold text-lg"
+      className="w-full py-2 text-red-600 dark:text-red-500 font-bold text-lg"
     >
       Back
     </button>

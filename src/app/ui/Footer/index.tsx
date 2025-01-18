@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="bg-gray-900 text-white py-4 text-center">
+      <footer className="py-4 text-center">
         <p className="text-sm">
           &copy; {currentYear} <a href="https://0x.company">0x Code Limited</a>.
           All rights reserved.
