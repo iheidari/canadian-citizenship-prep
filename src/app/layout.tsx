@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
+import AdSense from "./ui/AdSense";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,18 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Google AdSense code */}
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4083721213057833"
-          strategy="beforeInteractive"
-          async
-          crossOrigin="anonymous"
-        />
-        {/* <Script id="google-adsense">
-          {`
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          `}
-        </Script> */}
+        <AdSense />
         <main className="bg-gray-300 dark:bg-gray-900 text-black dark:text-white">
           {children}
         </main>

@@ -19,11 +19,16 @@ const Categories = () => {
   }, []);
 
   return (
-    <div className="max-w-[960px] w-full mx-auto  py-8 px-4">
-      <h2 className="text-2xl font-semibold text-center mb-6">
-        Prepare by Categories
-      </h2>
-      <div className="flex justify-center items-center min-h-screen p-4">
+    <div id="categories" className="max-w-[960px] w-full mx-auto py-12 px-4">
+      <div className="text-center mb-8">
+        <h2 className="text-3xl font-bold mb-4">Study by Categories</h2>
+        <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          Choose from 11 comprehensive study categories based on the official
+          Discover Canada guide. Each category includes detailed study materials
+          and practice questions.
+        </p>
+      </div>
+      <div className="flex justify-center items-center p-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-8 w-full justify-items-center">
           {categories.map((item, index) => {
             const score =
