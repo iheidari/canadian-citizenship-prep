@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import ThemeToggle from "@/app/ui/ThemeToggle";
 
 const Header = () => {
   return (
     <header className="h-32 bg-gradient-to-r from-red-950 to-red-900 flex items-center justify-center shadow-md">
       <div className="flex items-center justify-between w-full max-w-[960px] px-4">
-        {/* Logo Section (Optional) */}
+        {/* Logo Section */}
         <div className="flex items-center space-x-4">
           <Image
             src="/images/logo.webp"
@@ -20,6 +21,11 @@ const Header = () => {
               Canadian Citizenship Test Preparation
             </h1>
           </Link>
+        </div>
+
+        {/* Theme Toggle */}
+        <div className="flex items-center">
+          <ThemeToggle />
         </div>
       </div>
     </header>

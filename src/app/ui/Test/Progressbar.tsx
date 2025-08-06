@@ -29,7 +29,7 @@ const Progressbar = (props: ProgressbarProps) => {
         >
           <div className="grid grid-cols-[min-content_1fr_min-content] gap-6 items-center">
             <button
-              className="outline-none h-4 w-4 bg-none border-none p-0 transition-filter duration-200"
+              className="outline-none h-4 w-4 bg-none border-none p-0 transition-filter duration-200 filter dark:invert"
               onClick={handleClose}
             >
               <Image
@@ -39,9 +39,9 @@ const Progressbar = (props: ProgressbarProps) => {
                 height={18}
               />
             </button>
-            <div className="h-4 bg-gray-700 rounded-md">
+            <div className="h-4 bg-gray-700 dark:bg-gray-600 rounded-md">
               <div
-                className="h-4 bg-green-600 rounded-md transition-all duration-500"
+                className="h-4 bg-green-600 dark:bg-green-500 rounded-md transition-all duration-500"
                 style={{ width: `${props.value}%` }}
               ></div>
             </div>

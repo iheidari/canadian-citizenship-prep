@@ -30,14 +30,16 @@ const Answer = (props: Props) => {
                     alt="check"
                     width={31}
                     height={41}
-                    className="block"
+                    className="block filter dark:invert"
                   />
                 </div>
                 {/* Text */}
                 <div
-                  className={`flex flex-col justify-center text-[${
-                    isCorrect ? "#79b933" : "#d84848"
-                  }] font-bold text-lg`}
+                  className={`flex flex-col justify-center font-bold text-lg ${
+                    isCorrect
+                      ? "text-green-600 dark:text-green-400"
+                      : "text-red-600 dark:text-red-400"
+                  }`}
                 >
                   <div>{isCorrect ? "Great job!" : "Correct answer:"}</div>
                   <div className="text-base font-normal">

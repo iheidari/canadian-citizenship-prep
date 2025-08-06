@@ -179,11 +179,11 @@ const Test = (props: Props) => {
 
   return (
     <div
-      className="max-w-[1140px] mx-auto min-w-[900px]"
+      className="max-w-[1140px] mx-auto min-w-[900px] bg-white dark:bg-gray-900 text-black dark:text-white"
       style={{ maxWidth: "1140px", margin: "0 auto" }}
     >
       <div className="absolute inset-0">
-        <div className="py-6 px-4 md:p-0 gap-0 grid grid-rows-[100px_1fr_140px] min-h-[690px] grid-cols-[100%] overflow-hidden absolute h-full w-full">
+        <div className="py-6 px-4 md:p-0 gap-0 grid grid-rows-[100px_1fr_140px] min-h-[690px] grid-cols-[100%] overflow-hidden absolute h-full w-full bg-white dark:bg-gray-900">
           <Progressbar
             value={(progressValue / questions.length) * 100}
             onClose={handleExitTest}

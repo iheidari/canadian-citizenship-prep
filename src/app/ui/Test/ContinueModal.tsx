@@ -40,7 +40,7 @@ const ContinueButton = (props: { onClick: () => void; label: string }) => {
   return (
     <button
       onClick={props.onClick}
-      className="w-full py-2 bg-blue-500 text-white font-bold text-lg rounded-md shadow-md hover:bg-blue-600"
+      className="w-full py-2 bg-blue-500 dark:bg-blue-600 text-white font-bold text-lg rounded-md shadow-md hover:bg-blue-600 dark:hover:bg-blue-700"
     >
       {props.label}
     </button>
@@ -51,7 +51,7 @@ const ResetButton = (props: { onClick: () => void }) => {
   return (
     <button
       onClick={props.onClick}
-      className="w-full py-2 text-red-500 font-bold text-lg"
+      className="w-full py-2 text-red-500 dark:text-red-400 font-bold text-lg"
     >
       RESET
     </button>
